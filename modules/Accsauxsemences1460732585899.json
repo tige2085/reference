@@ -1,0 +1,193 @@
+{
+	"nomModule": "Accès aux semences",
+	"name": "accessemences",
+	"description": "Accès aux semences",
+	"theme": "",
+	"dateVisite": "2",
+	"dateRecVisite": "",
+	"detail": {},
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"orginsem": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "orginsem",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"marché",
+					"Ministère/autorités locales",
+					"fournisseur",
+					"autres paysans",
+					"ami/parent",
+					"coopérative/union"
+				]
+			},
+			"label": {
+				"2": "Où vous procurez vous ces semences ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Où vous procurez vous ces semences ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Où vous procurez vous ces semences"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "a886785279c76eefcd4f5a088c9cb214b8d15249"
+		},
+		"recptsem": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "recptsem",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Est ce que vous recevez ces semences à temps ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Est ce que vous recevez ces semences à temps ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Est ce que vous recevez ces semences à temps"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "5fa7b1e950591a4f319b78663e15011d9b62303b"
+		},
+		"fsemvill": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "fsemvill",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Avez-vous un fournisseur de semences dans le village ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Avez-vous un fournisseur de semences dans le village ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Avez-vous un fournisseur de semences dans le village"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "db0da49feaf28f2feac78c299d7d99070de0efa7",
+			"skipRule": {
+				"equals_1": {
+					"tabPath": [
+						"orginsem"
+					],
+					"rule": "equals",
+					"indice": 2,
+					"matchingValues": [
+						1
+					]
+				}
+			}
+		},
+		"distfournsem": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "distfournsem",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "A quelle distance se trouve le fournisseur de semences (en km) ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "A quelle distance se trouve le fournisseur de semences (en km) ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "distance du fournisseur de semences"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "8c331dc29756ed743e31513b03d712f43b4dede1"
+		}
+	},
+	"nomObjetModule": "Accsauxsemences1460732585899",
+	"primarykey": "",
+	"id": "380013d9c5559c96869babe2898bb995ad0c5bdc",
+	"listField": {},
+	"listVar": [
+		"fsemvill",
+		"distfournsem",
+		"orginsem",
+		"recptsem"
+	]
+}

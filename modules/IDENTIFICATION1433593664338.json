@@ -1,0 +1,137 @@
+{
+	"listVar": [
+		"dateenq",
+		"nomenq",
+		"nomchef"
+	],
+	"nomModule": "IDENTIFICATION",
+	"name": "ident",
+	"description": "IDENTIFICATION ",
+	"theme": "",
+	"dateVisite": "1",
+	"dateRecVisite": "",
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"dateenq": {
+			"caracteristique": {
+				"typeVariable": "date",
+				"nomVariable": "dateenq",
+				"restriction": ""
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Date de l'enquête"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Date de l'enquête"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Date enquete"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "b19cfcbfb12e355cdfdfd39b04dae04fd2cafddf"
+		},
+		"nomchef": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "nomchef",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Membres-bound_Membres1460557129638"
+				]
+			},
+			"label": {
+				"2": "Quelle est le nom du chef de ménage ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est le nom du chef de ménage ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "nom du chef de menage"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "1ecf86e2aadded1453c8a7f80c0485ca7a343135"
+		},
+		"nomenq": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "nomenq",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Abdoulaye Niang",
+					"Bara Tine",
+					"Doussou Mbodj",
+					"Fatou Mbodj",
+					"Ibrahima Sall",
+					"Moustapha Diallo"
+				]
+			},
+			"label": {
+				"2": "Nom de l'enquêteur ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": ""
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Nom de l'enquêteur ?"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "ef1ff0a5f63b1527288933cbe156fd53bb6aefb5"
+		}
+	},
+	"nomObjetModule": "IDENTIFICATION1433593664338",
+	"id": "d31abac89472ca3a52869f252e8fdbab57b0c367",
+	"listField": {}
+}

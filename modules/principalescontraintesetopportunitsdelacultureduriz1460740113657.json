@@ -1,0 +1,202 @@
+{
+	"nomModule": "principales contraintes et opportunités de la culture du riz",
+	"name": "contrtopportfilriz",
+	"description": "principales contraintes et opportunités de la culture du riz",
+	"theme": "",
+	"dateVisite": "2",
+	"dateRecVisite": "",
+	"detail": {},
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"contrfilriz": {
+			"caracteristique": {
+				"typeVariable": "textarea",
+				"nomVariable": "contrfilriz",
+				"restriction": ""
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelles sont les principales contraintes que vous rencontrez sur la filière riz ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelles sont les principales contraintes que vous rencontrez sur la filière riz ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "principales contraintes rencontrées sur la filière riz"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "808ac976ed3df238806ecc6de10cd3e456e16cb4"
+		},
+		"Contraintes": {
+			"caracteristique": {
+				"typeVariable": "nested",
+				"nomVariable": "Contraintes",
+				"restriction": ""
+			},
+			"tabOption": {
+				"listeVariable": {
+					"rang": {
+						"caracteristique": {
+							"typeVariable": "select",
+							"nomVariable": "rang",
+							"restriction": ""
+						},
+						"tabOption": {
+							"2": [
+								"1",
+								"2",
+								"3",
+								"4",
+								"5",
+								"6",
+								"7",
+								"8",
+								"9",
+								"10",
+								"11",
+								"12",
+								"13",
+								"14",
+								"15",
+								"16"
+							]
+						},
+						"label": {
+							"2": "Quelle est le classement de la contrainte (1 étant la plus contraignante) ?"
+						},
+						"indication": {
+							"2": ""
+						},
+						"mouseover": {
+							"2": ""
+						},
+						"textComment": {
+							"2": "Quelle est le classement de la contrainte (1 étant la plus contraignante) ?"
+						},
+						"giscoord": {
+							"2": "no"
+						},
+						"required": {
+							"2": "no"
+						},
+						"description": {
+							"2": "classement de la contrainte 1 étant la plus contraignante"
+						},
+						"typeTabOption": "no",
+						"id": "d7d0e4d685f1ae903fd2749414470cfc9bdabb2c"
+					}
+				},
+				"nestedType": "nestedColl",
+				"tabItems": {
+					"2": [
+						"Inexistence de variétés performantes",
+						"Difficile accès aux semences certifiées",
+						"Accès difficile aux technologies",
+						"Mauvaise herbe",
+						"Accès difficile au travail de sol",
+						"Mauvais planage",
+						"Difficile Gestion de l'eau",
+						"Difficultés d'accès au marché",
+						"Salinité des sols",
+						"Accès difficile aux engrais",
+						"Mauvaise qualité des intrants",
+						"Contraintes foncières",
+						"Contraintes de ressources financières",
+						"Contraintes de main d'oeuvre",
+						"Attaques de ravageurs (oiseaux;insectes)",
+						"Faible réseau infrastructure routière"
+					]
+				},
+				"type": "specItems",
+				"tabVarNested": [
+					"rang"
+				]
+			},
+			"label": {
+				"2": "Contraintes"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Contraintes"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Contraintes"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "427bd8de1a67c51745fc41bd322d472bd9b3dd66"
+		},
+		"opportfilriz": {
+			"caracteristique": {
+				"typeVariable": "textarea",
+				"nomVariable": "opportfilriz",
+				"restriction": ""
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelles sont les principales opportunités sur la filière riz ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelles sont les principales opportunités sur la filière riz ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "principales opportunités sur la filière riz"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "9af8d3e80ffa7133cafcce5fa9caf65aa666c547"
+		}
+	},
+	"nomObjetModule": "principalescontraintesetopportunitsdelacultureduriz1460740113657",
+	"primarykey": "",
+	"id": "f6cd37b3017569ba18b343f0294bbe6c42a04a6f",
+	"listField": {},
+	"listVar": [
+		"contrfilriz",
+		"Contraintes",
+		"opportfilriz"
+	]
+}

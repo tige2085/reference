@@ -1,0 +1,197 @@
+{
+	"listVar": [
+		"typetech",
+		"introd",
+		"satisfac",
+		"raisosati"
+	],
+	"nomModule": "Utilisation des technologies",
+	"name": "utiltech",
+	"description": "Utilisation des technologies",
+	"theme": "",
+	"dateVisite": "1",
+	"dateRecVisite": "",
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"typetech": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "typetech",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "boundModule+Collaborationaveclesstructurestechniques1433627410918_techno+1+techutil"
+			},
+			"label": {
+				"2": "Type de Technologie"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Type de Technologie"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Type de Technologie"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "1c01e9abcda546fa8cd7479fdf78c9b0bd3d3bff"
+		},
+		"introd": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "introd",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Recherche,Encadrement technique,ONG,OP,Autre producteur,Université/Ecoles formation"
+			},
+			"label": {
+				"2": "Qui vous a fait connaitre cette technologie ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Qui vous a fait connaitre cette technologie ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Qui vous a fait connaitre cette technologie"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "119e0be3de2b323b4ffcc6e4b587ab6b57e5c5ca"
+		},
+		"satisfac": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "satisfac",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Oui,Non"
+			},
+			"label": {
+				"2": "La technologie ci dessus vous satisfait il ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "La technologie ci dessus vous satisfait il ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "satisfaction"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "7ee42814904d375dd36cd8cc802c6ff8494d3336",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"moduleBeginningSR",
+						"ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501",
+						"Natureetqualitdessols1460667172270",
+						"type1"
+					],
+					"rule": "equals",
+					"indice": 0,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"raisosati": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "raisosati",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"bon encadrement",
+					"appui financier (crédit subvention)"
+				]
+			},
+			"label": {
+				"2": "Quelles sont les raisons de cette satisfaction ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelles sont les raisons de cette satisfaction ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "raison satisfaction"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "b67f10fa67443cab2376b6c4f84fc54e6a63f450"
+		}
+	},
+	"nomObjetModule": "UtilisationdestechnologiespilotesparleWAAPPPPAO1433657011788",
+	"id": "1b93e8fad0fe884d8481407f3af9693322c8628a",
+	"traverseOrder": {
+		"value": "aqli",
+		"variable": "typetech",
+		"audioTransition": "",
+		"tabList": [
+			"introd",
+			"satisfac",
+			"raisosati"
+		]
+	},
+	"listField": {}
+}

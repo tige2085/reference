@@ -1,0 +1,601 @@
+{
+	"listVar": [
+		"culture",
+		"culthiv15",
+		"superfhiv15",
+		"cultcsc14",
+		"superfcsc14",
+		"cultcsf15",
+		"superfcsf15",
+		"product15",
+		"qconso",
+		"qdistri",
+		"qvendu",
+		"prixvkg",
+		"rendt3ans",
+		"raisdiff"
+	],
+	"nomModule": "Production Agricole 2015",
+	"name": "prodagri15",
+	"description": "Production Agricole 2015",
+	"theme": "",
+	"dateVisite": "3",
+	"dateRecVisite": "",
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"culture": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "culture",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Cultures-bound_Cultures1460559414380"
+				]
+			},
+			"label": {
+				"2": "Culture"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Culture"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Culture"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "8f2e7cd784967d6a79abd59093146fb1f82e336d"
+		},
+		"qconso": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "qconso",
+				"restriction": "***kg*"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est la quantité autoconsommée ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la quantité autoconsommée ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "quantité autoconsommée"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "0dc34ddcafc31666f9a7a7bb3057a534bce6cb86"
+		},
+		"qdistri": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "qdistri",
+				"restriction": "***kg*"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle quantité à été distribuée sous forme de dons ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle quantité à été distribuée sous forme de dons ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "quantité distibue en don"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "c2333c5777ad3becba78276ca7e95ed0660297e2"
+		},
+		"qvendu": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "qvendu",
+				"restriction": "***kg*"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est la quantité qui a été vendue ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la quantité qui a été vendue ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "qunatite vendue"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "075c39a74ff4d7b8a6297c0dd78c2e3b66823bf4"
+		},
+		"prixvkg": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "prixvkg",
+				"restriction": "***fcfa*"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quel est le prix de vente du kg ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quel est le prix de vente du kg ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "prix de vente du kg"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "20a715682d9722afdc9fbe5d07af1c3381e9cc28"
+		},
+		"culthiv15": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "culthiv15",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Avez vous fait cette culture durant l'hivernage 2015 ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Avez vous fait cette culture durant l'hivernage 2015 ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Avez vous fait cette culture durant l'hivernage 2015"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "11ca77b2243e9cb368eeb5a1ae5162b94859ace6",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"cultcsc14"
+					],
+					"rule": "equals",
+					"indice": 3,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"superfhiv15": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "superfhiv15",
+				"restriction": "***ha*"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est la superficie occupée par la culture pendant l'hivernage 2015 ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la superficie occupée par la culture pendant l'hivernage 2015 ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "superficie occupée par la culture pendant l'hivernage 2015"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "46036b48f5281ae35b415ed4df0c27750fe06406"
+		},
+		"cultcsc14": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "cultcsc14",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Avez vous fait cette culture durant la contre saison chaude 2015 ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Avez vous fait cette culture durant la contre saison chaude 2015 ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Avez vous fait cette culture durant la contre saison chaude 2015"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "8b4199e97f6902cb1498860c8a1b7d52e1d52e82",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"cultcsf15"
+					],
+					"rule": "equals",
+					"indice": 5,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"superfcsc14": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "superfcsc14",
+				"restriction": "***ha*"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est la superficie occupée par la culture pendant la contre saison chaude 2015 ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la superficie occupée par la culture pendant la contre saison chaude 2015 ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "superficie occupée par la culture pendant la contre saison chaude 2015"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "f6729a9576ddeb11d6a3cd9a2f99be40130d4f23"
+		},
+		"product15": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "product15",
+				"restriction": "***kg*"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est la quantité totale produite durant l'année agricole 2015 ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la quantité totale produite durant l'année agricole 2015 ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "quantité totale produite durant l'année agricole 2015"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "b4141ddf0efd13e04a22b26db15247e95f57b8a1"
+		},
+		"rendt3ans": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "rendt3ans",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est le rendement par ha de la culture il y a 3 ans ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est le rendement par ha de la culture il y a 3 ans ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "rendement par ha de la culture il y a 3 ans"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "b6fb685ec4d37da1cced88bae1646de97b47a0b8"
+		},
+		"raisdiff": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "raisdiff",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"utilisation nouvelle technologie",
+					"expérience professionnelle",
+					"Maitrise technique",
+					"Encadrement",
+					"disponibilité intrant",
+					"Bonnes terres",
+					"dégradation des terres",
+					"manque de technicité",
+					"déficit hydrique",
+					"manque de technologies",
+					"insuffisance intrants"
+				]
+			},
+			"label": {
+				"2": "Quelle est la raison s'il existe de la différence entre le  rendement de l'année agricole 2015 et le rendement il y a 3 ans ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la raison s'il existe de la différence entre le  rendement de l'année agricole 2015 et le rendement il y a 3 ans ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Quelle est la raison s'il existe de la différence avec le  rendement il y a 3 ans"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "59966dc3a16ede48683ed051c710e3bf0a2b4adf"
+		},
+		"superfcsf15": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "superfcsf15",
+				"restriction": "***ha*"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est la superficie occupée par la culture pendant la contre saison froide 2015 ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la superficie occupée par la culture pendant la contre saison froide 2015 ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "superficie occupée par la culture pendant la contre saison froide 2015"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "e8bd95e5fcc866ba0bb783a1a4198f786ede3523"
+		},
+		"cultcsf15": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "cultcsf15",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Avez vous fait cette culture durant la contre saison froide 2015 ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Avez vous fait cette culture durant la contre saison froide 2015 ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Avez vous fait cette culture durant la contre saison froide 2015"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "b448ceaaf896e27c4d5542d6dee0393b4c3d5f16",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"product15"
+					],
+					"rule": "equals",
+					"indice": 7,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		}
+	},
+	"nomObjetModule": "ProductionAgricole20141433671999888",
+	"id": "fc16dbd7f7997e3635701ce15fe45102d584fea9",
+	"listField": {},
+	"traverseOrder": {
+		"value": "aqli",
+		"variable": "culture",
+		"audioTransition": "",
+		"tabList": [
+			"culthiv15",
+			"superfhiv15",
+			"cultcsc14",
+			"superfcsc14",
+			"cultcsf15",
+			"superfcsf15",
+			"product15",
+			"qconso",
+			"qdistri",
+			"qvendu",
+			"prixvkg",
+			"rendt3ans",
+			"raisdiff"
+		]
+	}
+}

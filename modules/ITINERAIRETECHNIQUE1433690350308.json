@@ -1,0 +1,817 @@
+{
+	"listVar": [
+		"labour",
+		"typlabour",
+		"moyen",
+		"offset",
+		"passeoffst",
+		"typsemi",
+		"utilengrais",
+		"nbrfrac",
+		"quantpfrac",
+		"aplinpk",
+		"npksemi",
+		"herbic",
+		"njrsaplhrb",
+		"njrsaplldx",
+		"njrsvaplldx",
+		"utilphyto",
+		"typprod",
+		"typebat"
+	],
+	"nomModule": "DESCRIPTION DE L'ITINERAIRE TECHNIQUE PRATIQUE PAR LE MENAGE SUR LE RIZ",
+	"name": "ititechriz",
+	"description": "DESCRIPTION DE L'ITINERAIRE TECHNIQUE PRATIQUE PAR LE MENAGE SUR LE RIZ",
+	"theme": "",
+	"dateVisite": "3",
+	"dateRecVisite": "",
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"labour": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "labour",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Oui,Non"
+			},
+			"label": {
+				"2": "Faites vous le  labour pour le riz?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Faites vous le  labour pour le riz ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Faites vous le  labour pour le riz"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "411cd345ed8f9cf8c5d1334f18f5d2fd512e2608",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"offset"
+					],
+					"rule": "equals",
+					"indice": 3,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"moyen": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "moyen",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Mécanisé,Manuel"
+			},
+			"label": {
+				"2": "Quels moyens utilisez-vous pour le labour ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quels moyens utilisez-vous pour le labour ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "moyens utilisés"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "20e9c14a2ee60dca395f6bd82441846a3aa4d51d"
+		},
+		"typsemi": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "typsemi",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Volée",
+					"Repiquage"
+				]
+			},
+			"label": {
+				"2": "Quelle type de semis pratiquez vous ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle type de semis pratiquez vous ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "type de semis"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "2589580df11459d6a8eb9bac833c3bcad5aa3398"
+		},
+		"aplinpk": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "aplinpk",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Oui,Non"
+			},
+			"label": {
+				"2": "Appliquez vous du NPK  après le travail du sol  ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Appliquez vous du NPK  après le travail du sol  ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "application du NPK après le travail du sol"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "2731845e8e798d62fc678b4eb4e8f209ffc00099"
+		},
+		"herbic": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "herbic",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Oui,Non"
+			},
+			"label": {
+				"2": "Appliquez vous des herbicides ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Appliquez vous des herbicides ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Appliquation herbicide"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "09f3af97c0ee505841bdbcd827b1bdfd2c739e6c",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"utilphyto"
+					],
+					"rule": "equals",
+					"indice": 14,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"utilphyto": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "utilphyto",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Oui,Non"
+			},
+			"label": {
+				"2": "Utilisez vous des produits phytosanitaires ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Utilisez vous des produits phytosanitaires ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "utilisation produit phytosanitaire"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "5aba96c2303aa35ee630612ff55815e641521d95"
+		},
+		"typprod": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "typprod",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"manuel",
+					"mécanique",
+					"manuel et mécanique"
+				]
+			},
+			"label": {
+				"2": "Comment récoltez-vous votre production ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Comment récoltez-vous votre production ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "recolte production"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "dd46744163332a37be740d458ba55548baaa253a"
+		},
+		"typebat": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "typebat",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"manuel",
+					"mécanique",
+					"manuel et mécanique"
+				]
+			},
+			"label": {
+				"2": "Comment faites-vous le battage ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Comment faites-vous le battage ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "type de battage"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "659f41bd10c975f0817db58ba3bb8a0e607f8f5c"
+		},
+		"typlabour": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "typlabour",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"simple",
+					"profond"
+				]
+			},
+			"label": {
+				"2": "Quel type de labour faites vous ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quel type de labour faites vous ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Quel type de labour faites vous"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "e8e757f6653e2409c6a97f29dc342bef676274ed"
+		},
+		"offset": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "offset",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Faites vous l'offset ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Faites vous l'offset ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Faites vous l'offset ?"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "53a610e925bbc0a175e365d31241ae75aeead651",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"typsemi"
+					],
+					"rule": "equals",
+					"indice": 5,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"passeoffst": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "passeoffst",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Combien de passes effectuez vous pour l'offset ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Combien de passes effectuez vous pour l'offset ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Combien de passes effectuez vous pour l'offset"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "595517b82d9ee27405309c3082ad423c890a109f"
+		},
+		"nbrfrac": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "nbrfrac",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quell est le nombre de fraction pour l'urée (si vous utilisez de l'urée) ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quell est le nombre de fraction pour l'urée (si vous utilisez de l'urée) ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Quell est le nombre de fraction pour l'urée (si vous utilisez de l'urée)"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "1b8a0ea9478f2942296f495b69d81f88e4734ead"
+		},
+		"quantpfrac": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "quantpfrac",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est la quantité par fraction pour l'urée  (si vous utilisez de l'urée) ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la quantité par fraction pour l'urée  (si vous utilisez de l'urée) ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Quelle est la quantité par fraction pour l'urée  (si vous utilisez de l'urée)"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "6c61068c0fe102aa812791d1575c87ef803eda42"
+		},
+		"npksemi": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "npksemi",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Appliquez vous du NPK après le semis ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Appliquez vous du NPK après le semis ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Appliquez vous du NPK après le semis"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "1929bf6d1321a87251455bdc359a3f9979d8a341"
+		},
+		"njrsaplhrb": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "njrsaplhrb",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Combien de jours attendez vous après le semis avant l'application d'herbicides ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Combien de jours attendez vous après le semis avant l'application d'herbicides ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Nombre de jours d'attente après le semis avant l'application d'herbicides"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "89107b33f8aab4a2883a79d1d8ce01449f37aa72"
+		},
+		"njrsaplldx": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "njrsaplldx",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Application herbicide avec Londax  (nombre jours avant semis)"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Application herbicide avec Londax  (nombre jours avant semis)"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Application herbicide avec Londax  (nombre jours avant semis)"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "79cac24c37f455bd439dba2feee3802562355b89"
+		},
+		"utilengrais": {
+			"caracteristique": {
+				"typeVariable": "nested",
+				"nomVariable": "utilengrais",
+				"restriction": ""
+			},
+			"tabOption": {
+				"listeVariable": {
+					"type": {
+						"caracteristique": {
+							"typeVariable": "select",
+							"nomVariable": "type",
+							"restriction": ""
+						},
+						"tabOption": {
+							"2": [
+								"NPK (dose/ha)",
+								"Urée (dose/ha)",
+								"Fumiers (nombre de charrettes)",
+								"Déchets ménagers (nombre de charrettes)",
+								"Compostage"
+							]
+						},
+						"label": {
+							"2": "type"
+						},
+						"indication": {
+							"2": ""
+						},
+						"mouseover": {
+							"2": ""
+						},
+						"textComment": {
+							"2": "type"
+						},
+						"giscoord": {
+							"2": "no"
+						},
+						"required": {
+							"2": "no"
+						},
+						"description": {
+							"2": "type"
+						},
+						"typeTabOption": "yes",
+						"id": "d0a3e7f81a9885e99049d1cae0336d269d5e47a9"
+					},
+					"quant": {
+						"caracteristique": {
+							"typeVariable": "number",
+							"nomVariable": "quant",
+							"restriction": "***"
+						},
+						"tabOption": "",
+						"label": {
+							"2": "quantité"
+						},
+						"indication": {
+							"2": ""
+						},
+						"mouseover": {
+							"2": ""
+						},
+						"textComment": {
+							"2": "quantité"
+						},
+						"giscoord": {
+							"2": "no"
+						},
+						"required": {
+							"2": "no"
+						},
+						"description": {
+							"2": "quantité"
+						},
+						"id": "a49eaf61cf614abe77bf19cb04f00af9c267e5a2"
+					}
+				},
+				"nestedType": "nestedForm",
+				"tabItems": {
+					"2": []
+				},
+				"type": "specItems",
+				"tabVarNested": [
+					"type",
+					"quant"
+				]
+			},
+			"label": {
+				"2": "utilisation engrais"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "utilisation engrais"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "utilisation engrais"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "cb5ccf4575b8e3010c98b87f1e0352808c8999e3"
+		},
+		"njrsvaplldx": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "njrsvaplldx",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Application herbicide avec Londax  (nombre jours après semis)"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Application herbicide avec Londax  (nombre jours après semis)"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Application herbicide avec Londax  (nombre jours après semis)"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "44c671cf9d01b66088e7cad39db49f87f3014992"
+		}
+	},
+	"nomObjetModule": "ITINERAIRETECHNIQUE1433690350308",
+	"id": "dbcdc83259d2c64a3fef2b907e3b3e8999b7162e",
+	"listField": {}
+}

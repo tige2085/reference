@@ -1,0 +1,299 @@
+{
+	"nomModule": "information sur l'utilisation des engrais et herbicides sur le riz",
+	"name": "utilengrherriz",
+	"description": "information sur l'utilisation des engrais et herbicides sur le riz",
+	"theme": "",
+	"dateVisite": "2",
+	"dateRecVisite": "",
+	"detail": {},
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"engherb": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "engherb",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"boundModule+Applicationdesengraisetdesherbicidessurleriz1460717106188_siutilengr+1+engrutil",
+					"boundModule+Applicationdesengraisetdesherbicidessurleriz1460717106188_siutilherb+1+herbutil"
+				]
+			},
+			"label": {
+				"2": "Engrais/herbicides"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Engrais/herbicides"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Engrais/herbicides"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "7301424e3431f67ddae9cf8caf2a9d412e38ff5c"
+		},
+		"quantengr": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "quantengr",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est la quantité utilisée par ha lors de la dernière campagne ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la quantité utilisée par ha lors de la dernière campagne ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "quantité utilisée par ha lors de la dernière campagne"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "1b416f0505bcb0b45a6f460580b7cd378bc779a8"
+		},
+		"forme": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "forme",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"ordinaire",
+					"granulé",
+					"liquide"
+				]
+			},
+			"label": {
+				"2": "Quelle est la forme utilisée ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la forme utilisée ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "forme utilisée"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "99660983aa968adebd50bca74b2771f75af0729c"
+		},
+		"prix": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "prix",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est le prix en FCFA/kg en 2015 ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est le prix en FCFA/kg en 2015 ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "prix en FCFA/kg en 2015"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "9352ee4da55282df5ae3cb20cbb7b67de450a2e5"
+		},
+		"dose": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "dose",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est la dose recommendée par ha ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la dose recommendée par ha ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "dose recommendée par ha"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "fddd2dca7e8e37de06d39362e9fc2dc44f3b568f"
+		},
+		"dosesouht": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "dosesouht",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quel est la dose que vous souhaiterez appliquer par ha ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quel est la dose que vous souhaiterez appliquer par ha ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Quel est la dose que vous souhaiterez appliquer par ha"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "1b81e0b4b5cbb9bfc465bae687f39b2357823723"
+		},
+		"raison": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "raison",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Mauvaise qualité des engrais/herbicides",
+					"hausse de rendement",
+					"baisse de rendement",
+					"manque de moyen",
+					"dose utilisée satisfaisante"
+				]
+			},
+			"label": {
+				"2": "Quelle est la raison (s'il existe) de l'écart entre la dose recommandée et la dose utilisée ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la raison (s'il existe) de l'écart entre la dose recommandée et la dose utilisée ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "la raison (s'il existe) de l'écart entre la dose recommandée et la dose utilisée"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "24d8e030ea6256670143c8a3a3f7ba57182dd21f"
+		}
+	},
+	"nomObjetModule": "informationsurlutilisationdesengraisetherbicidessurleriz1460717782867",
+	"primarykey": "",
+	"id": "d44dde19dd3617f0b9a75dfa7bb983f528ffe841",
+	"listField": {},
+	"listVar": [
+		"engherb",
+		"quantengr",
+		"forme",
+		"prix",
+		"dose",
+		"dosesouht",
+		"raison"
+	],
+	"traverseOrder": {
+		"value": "aqli",
+		"variable": "engherb",
+		"audioTransition": "",
+		"tabList": [
+			"quantengr",
+			"forme",
+			"prix",
+			"dose",
+			"dosesouht",
+			"raison"
+		]
+	}
+}

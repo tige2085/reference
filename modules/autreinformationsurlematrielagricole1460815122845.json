@@ -1,0 +1,306 @@
+{
+	"nomModule": "autre information sur le matériel agricole",
+	"name": "matagriautre",
+	"description": "autre information sur le matériel agricole",
+	"theme": "",
+	"dateVisite": "3",
+	"dateRecVisite": "",
+	"detail": {},
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"CAUSEQ1": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "CAUSEQ1",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Un manque de connaissance de l'existant en petit matériel agricole pour la réalisation des taches agricoles",
+					"Un manque de moyen pour l’acquisition",
+					"Un manque de technicité pour l’utilisation des petits équipements agricoles",
+					"L’organisation sociale de la pratique culturale dans la localité"
+				]
+			},
+			"label": {
+				"2": "Quelle est selon vous la première cause du manque de matériels agricoles ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est selon vous la première cause du manque de matériels agricoles ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "première cause du manque de matériels agricoles"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "9062fa5dd44e29314e829a7949a042a70cce5c96"
+		},
+		"CAUSEQ2": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "CAUSEQ2",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Un manque de connaissance de l'existant en petit matériel agricole pour la réalisation des taches agricoles",
+					"Un manque de moyen pour l’acquisition",
+					"Un manque de technicité pour l’utilisation des petits équipements agricoles",
+					"L’organisation sociale de la pratique culturale dans la localité"
+				]
+			},
+			"label": {
+				"2": "Quelle est selon vous la deuxième cause du manque de matériels agricoles ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est selon vous la deuxième cause du manque de matériels agricoles ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Quelle est selon vous la deuxième cause du manque de matériels agricoles"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "d603e504cd55c08ee8a603f53850e56344bcfe02"
+		},
+		"CONEQ": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "CONEQ",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Connaissez-vous les différents types de petits matériels agricoles pour vos activités agricoles ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Connaissez-vous les différents types de petits matériels agricoles pour vos activités agricoles ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Connaissez-vous les différents types de petits matériels agricoles pour vos activités agricoles"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "f700bfa17d18ea62f377b32f50a5cec49090d3e6"
+		},
+		"FORMEQ": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "FORMEQ",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Avez-vous déjà reçu une formation pour l'utilisation d'un petit équipement agricole ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Avez-vous déjà reçu une formation pour l'utilisation d'un petit équipement agricole ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Avez-vous déjà reçu une formation pour l'utilisation d'un petit équipement agricole"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "8a330bc3374844de16f3b8eb1f2a9a2f66546659",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"moduleBeginningSR",
+						"ITINERAIRETECHNIQUE1433690350308",
+						"labour"
+					],
+					"rule": "equals",
+					"indice": 0,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"organf": {
+			"caracteristique": {
+				"typeVariable": "text",
+				"nomVariable": "organf",
+				"restriction": ""
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quel organisme a réalisé cette formation ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quel organisme a réalisé cette formation ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Quel organisme a réalisé cette formation"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "ae39925a76e468421deb269bd3d7be67f1c18e81"
+		},
+		"equipf": {
+			"caracteristique": {
+				"typeVariable": "text",
+				"nomVariable": "equipf",
+				"restriction": ""
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Sur quel équipement cette formation a t il portée ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Sur quel équipement cette formation a t il portée ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Sur quel équipement cette formation a t il portée"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "ad4c38baf317f2297ecfa9c54fededeb222015ad"
+		},
+		"dureef": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "dureef",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle a été la durée de la formation en jours ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle a été la durée de la formation en jours ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Quelle a été la durée de la formation en jours"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "b3a0733f456e26a178dcddb92a2df6fb7efffc15"
+		}
+	},
+	"nomObjetModule": "autreinformationsurlematrielagricole1460815122845",
+	"primarykey": "",
+	"id": "2a5e87302524eca9aa27dd078bb151d3cf1255da",
+	"listField": {},
+	"listVar": [
+		"CAUSEQ1",
+		"CAUSEQ2",
+		"CONEQ",
+		"FORMEQ",
+		"organf",
+		"equipf",
+		"dureef"
+	]
+}

@@ -1,0 +1,881 @@
+{
+	"nomModule": "Nature et qualité des sols",
+	"name": "naturqualisol",
+	"description": "Nature et qualité des sols",
+	"theme": "",
+	"dateVisite": "2",
+	"dateRecVisite": "",
+	"detail": {},
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"type1": {
+			"caracteristique": {
+				"typeVariable": "text",
+				"nomVariable": "type1",
+				"restriction": ""
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quel est le nom vernaculaire du premier type de sol cultivé ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quel est le nom vernaculaire du premier type de sol cultivé ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "nom vernaculaire du premier type de sol cultivé"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "9f5a6f89aec1733d72e8b9e8493c43bba6b924dc"
+		},
+		"type2": {
+			"caracteristique": {
+				"typeVariable": "text",
+				"nomVariable": "type2",
+				"restriction": ""
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quel est le nom vernaculaire du deuxième type de sol cultivé ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quel est le nom vernaculaire du deuxième type de sol cultivé ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "nom vernaculaire du deuxième type de sol cultivé"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "0baad85110f49a62df4553f677e04d7bc0ca5b19"
+		},
+		"type3": {
+			"caracteristique": {
+				"typeVariable": "text",
+				"nomVariable": "type3",
+				"restriction": ""
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quel est le nom vernaculaire du troisième type de sol cultivé ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quel est le nom vernaculaire du troisième type de sol cultivé ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "nom vernaculaire du troisième type de sol cultivé"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "9262b55301855146b3f2d026cb192de84588f523"
+		},
+		"DEGRA": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "DEGRA",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Constatez-vous une dégradation des sols ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Constatez-vous une dégradation des sols ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "constatation d'une dégradation des sols"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "a31ea9de95a13796546c1e54d680ea51b76de743",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"moduleBeginningSR",
+						"ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501",
+						"Utilisationdessemences1460713014027",
+						"specult"
+					],
+					"rule": "equals",
+					"indice": 0,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"manifdeg": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "manifdeg",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Changement de couleur (préciser la couleur)",
+					"Apparition de tache huileuse",
+					"Aspect poudreux",
+					"Efflorescence saline"
+				]
+			},
+			"label": {
+				"2": "Comment se manifeste cette dégradation au niveau des sols ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Comment se manifeste cette dégradation au niveau des sols ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "manifestation de la dégradation au niveau des sols"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "98fb4697336dd903755f301a13a0d3ea3900146b"
+		},
+		"manifcult": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "manifcult",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Baisse de rendement",
+					"Jaunissement",
+					"Flétrissement",
+					"Mort des plantules",
+					"Faible taux de germination"
+				]
+			},
+			"label": {
+				"2": "comment se manifeste cette dégradation au niveau des cultures ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "comment se manifeste cette dégradation au niveau des cultures ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "manifestation dégradation au niveau des cultures"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "6a1ab04dccf6b9ef03aef162fe77551cbc9d4e33"
+		},
+		"ANDEG": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "ANDEG",
+				"restriction": "2017*1999***"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "A partir de quelle année avez-vous commencé à constater les dégradations ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "A partir de quelle année avez-vous commencé à constater les dégradations ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Année de constatation des dégradations"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "e1078d3a54c5a0d11357eb9199fe1581ab2163d8"
+		},
+		"FUMTYPE1": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "FUMTYPE1",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Déjection animale",
+					"Composte",
+					"Cendre de végétaux",
+					"Biochar"
+				]
+			},
+			"label": {
+				"2": "Quel type de fumure organique utilisez vous pour lutter contre les dégradations constatées ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quel type de fumure organique utilisez vous pour lutter contre les dégradations constatées ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "type de fumure organique utilisé contre les dégradations"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "3ef7acfd7eb9148d4e39c5d46d759e62097d42c8",
+			"skipRule": {
+				"equals_1_2_3_4": {
+					"tabPath": [
+						"PHOSTYPE1"
+					],
+					"rule": "equals",
+					"indice": 14,
+					"matchingValues": [
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			}
+		},
+		"utilfum": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "utilfum",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Utilisez-vous de la fumure organique pour lutter contre les dégradations constatées ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Utilisez-vous de la fumure organique pour lutter contre les dégradations constatées ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "utilisation fumure contre les dégradations"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "54981be8f51d1349441df14807c012548a04a8f8",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"raisnutil"
+					],
+					"rule": "equals",
+					"indice": 9,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"raisnutil": {
+			"caracteristique": {
+				"typeVariable": "textarea",
+				"nomVariable": "raisnutil",
+				"restriction": ""
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Pour quelle raison n'utilisez vous pas de fumure organique pour lutter contre les dégradations constatées ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Pour quelle raison n'utilisez vous pas de fumure organique pour lutter contre les dégradations constatées ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "raison de non utilisation de fumure organique pour lutter contre les dégradations constatées"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "853e279c353f950d8c0ffa0f3ad972a08770358c"
+		},
+		"MODEFUM": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "MODEFUM",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Achat",
+					"Collecte personnelle"
+				]
+			},
+			"label": {
+				"2": "Quel est le mode d'acquisition de cette fumure organique ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quel est le mode d'acquisition de cette fumure organique ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "mode d'acquisition fumure organique"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "68be6fa6b78155cb6caf1789240b8a3186227a1a"
+		},
+		"QUANTFUM": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "QUANTFUM",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle quantité de fumure organique apportez-vous approximativement par ha (en kg) ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle quantité de fumure organique apportez-vous approximativement par ha (en kg) ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "quantité de fumure organique par ha en kg"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "40c2caa566e3900cc92debe920f345d5845e4a4b"
+		},
+		"IMPFUM": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "IMPFUM",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Y a-t-il un impact de l'utilisation de la fumure organique sur les rendements ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Y a-t-il un impact de l'utilisation de la fumure organique sur les rendements ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "impact de l'utilisation de la fumure organique sur les rendements"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "12d057bdb34938d8b274075f736c86b4ee7a7e08",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"FUMTYPE1"
+					],
+					"rule": "equals",
+					"indice": 12,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"EFIMPFUM": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "EFIMPFUM",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Hausse des rendements",
+					"Baisse des rendements",
+					"Consistance et poids des grains",
+					"Résistance aux maladies"
+				]
+			},
+			"label": {
+				"2": "Comment constatez vous l'impact de l'utilisation de la fumure organique sur les rendements ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Comment constatez vous l'impact de l'utilisation de la fumure organique sur les rendements ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Comment constatez vous l'impact de l'utilisation de la fumure organique sur les rendements"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "b798d4ecc89ed5377f34d009401a484b1b2ac9f0"
+		},
+		"PHOSTYPE1": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "PHOSTYPE1",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Utilisez-vous le phosphate de fond pour lutter contre les dégradations constatées ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Utilisez-vous le phosphate de fond pour lutter contre les dégradations constatées ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "utilisation de phosphate de fond contre les dégradations constatées"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "e68aabc4f3d9be62570fc94e44ea8d171983f44d",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"PHOGYTYPE1"
+					],
+					"rule": "equals",
+					"indice": 17,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"diffengamd": {
+			"caracteristique": {
+				"typeVariable": "textarea",
+				"nomVariable": "diffengamd",
+				"restriction": ""
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est selon vous la différence entre le concept d'engrais et d'amendement ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est selon vous la différence entre le concept d'engrais et d'amendement ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "différence entre le concept d'engrais et d'amendement"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "1e87e739be724a8673e512151a5ae7220c038c41"
+		},
+		"AMDGTACQ": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "AMDGTACQ",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Achat",
+					"Don"
+				]
+			},
+			"label": {
+				"2": "Comment avez-vous acquis votre amendement ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Comment avez-vous acquis votre amendement ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Comment avez-vous acquis votre amendement"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "c659949a13509e8be2d09e5be50072be48b70871"
+		},
+		"PHOGYTYPE1": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "PHOGYTYPE1",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Avez-vous utilisé le phosphogypse ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Avez-vous utilisé le phosphogypse pour lutter contre les dégradations ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "utilisation phosphogypse contre les dégradations"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "60539e74f8bb77a379b2081e47fface6317dc79e",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"moduleBeginningSR",
+						"ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501",
+						"Utilisationdessemences1460713014027",
+						"specult"
+					],
+					"rule": "equals",
+					"indice": 0,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"diffengamdp": {
+			"caracteristique": {
+				"typeVariable": "textarea",
+				"nomVariable": "diffengamdp",
+				"restriction": ""
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est selon vous la différence entre le concept d’engrais et d’amendement ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est selon vous la différence entre le concept d’engrais et d’amendement ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "différence entre le concept d’engrais et d’amendement"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "6fe2d571b75e099e2f56fdcced5b650420b6b8e2"
+		},
+		"PHOGYTACQ": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "PHOGYTACQ",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Achat",
+					"Don"
+				]
+			},
+			"label": {
+				"2": "Comment avez-vous acquis votre phosphogypse ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Comment avez-vous acquis votre phosphogypse ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Comment avez-vous acquis votre phosphogypse"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "fae8b7809dfe8652a2c23aa08c5387cec4cb8a7b",
+			"typeTabOption": "yes"
+		}
+	},
+	"nomObjetModule": "Natureetqualitdessols1460667172270",
+	"primarykey": "",
+	"id": "0343ff0b4e31534d85ce8a83af9b6f64f845c085",
+	"listField": {},
+	"listVar": [
+		"type1",
+		"type2",
+		"type3",
+		"DEGRA",
+		"manifdeg",
+		"manifcult",
+		"ANDEG",
+		"utilfum",
+		"MODEFUM",
+		"QUANTFUM",
+		"IMPFUM",
+		"EFIMPFUM",
+		"FUMTYPE1",
+		"raisnutil",
+		"PHOSTYPE1",
+		"diffengamd",
+		"AMDGTACQ",
+		"PHOGYTYPE1",
+		"diffengamdp",
+		"PHOGYTACQ"
+	]
+}

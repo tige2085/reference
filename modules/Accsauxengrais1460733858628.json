@@ -1,0 +1,193 @@
+{
+	"nomModule": "Accès aux engrais",
+	"name": "accesengr",
+	"description": "Accès aux engrais",
+	"theme": "",
+	"dateVisite": "2",
+	"dateRecVisite": "",
+	"detail": {},
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"fengrvill": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "fengrvill",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Avez-vous un fournisseur d'engrais dans le village ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Avez-vous un fournisseur d'engrais dans le village ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Avez-vous un fournisseur d'engrais dans le village"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "16655874786b8d5ce9b9fe54a46b85cac586bbea",
+			"skipRule": {
+				"equals_1": {
+					"tabPath": [
+						"orginengr"
+					],
+					"rule": "equals",
+					"indice": 2,
+					"matchingValues": [
+						1
+					]
+				}
+			}
+		},
+		"distfourneng": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "distfourneng",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "A quelle distance se trouve le fournisseur des engrais (en km) ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "A quelle distance se trouve le fournisseur des engrais (en km) ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "distance fournisseur des engrais en km"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "fc0a54c3e42cfee73a4702f68dc74b8aa015e565"
+		},
+		"orginengr": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "orginengr",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"marché",
+					"Ministère/autorités locales",
+					"fournisseur",
+					"autres paysans",
+					"ami/parent",
+					"coopérative/union"
+				]
+			},
+			"label": {
+				"2": "Où vous procurez vous ces engrais ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Où vous procurez vous ces engrais ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Où vous procurez vous ces engrais"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "ed402fa239cf21f31ad7a67f6a64b1317ee10eed"
+		},
+		"recptengr": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "recptengr",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Est ce que vous recevez ces engrais à temps ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Est ce que vous recevez ces engrais à temps ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Est ce que vous recevez ces engrais à temps"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "f29552a3959c106aa1923babecc83cb11ff14fcf"
+		}
+	},
+	"nomObjetModule": "Accsauxengrais1460733858628",
+	"primarykey": "",
+	"id": "abd2df42f7364d6098e1a0e0a62c16358472326f",
+	"listField": {},
+	"listVar": [
+		"fengrvill",
+		"distfourneng",
+		"orginengr",
+		"recptengr"
+	]
+}

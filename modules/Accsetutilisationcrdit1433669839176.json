@@ -1,0 +1,320 @@
+{
+	"listVar": [
+		"acredit",
+		"besoin1",
+		"besoin2",
+		"besoin3",
+		"raison1",
+		"raison2",
+		"raison3"
+	],
+	"nomModule": "Accès au crédit",
+	"name": "accesscredit",
+	"description": "Accès au crédit",
+	"theme": "",
+	"dateVisite": "2",
+	"dateRecVisite": "",
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"acredit": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "acredit",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Oui,Non"
+			},
+			"label": {
+				"2": "Avez-vous accès au crédit ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Avez-vous accès au crédit ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Acces au credit"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "af8fda7095fa818e2af37b738f85b855f927dbe1",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"raison1"
+					],
+					"rule": "equals",
+					"indice": 4,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"besoin1": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "besoin1",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "intrants,main d'œuvre,équipements,consommation,logement,transport,habillement,investissement activités productive,intrants et main d'oeuvre,intrants et équipements,intrants et main d'oeuvre et équipements"
+			},
+			"label": {
+				"2": "Quel est le premier besoin d'utilisation de ce credit ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quel est le premier besoin d'utilisation de ce credit ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "premier besoin d'utilisation du crédit"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "0b3507ca8ee6d5c8b31bb60d38e906701a33ec9c"
+		},
+		"besoin2": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "besoin2",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "intrants,main d'œuvre,équipements,consommation,logement,transport,habillement,investissement activités productive,intrants et main d'oeuvre,intrants et équipements,intrants et main d'oeuvre et équipements"
+			},
+			"label": {
+				"2": "Quel est le deuxieme besoin d'utilisation de ce credit ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quel est le deuxieme besoin d'utilisation de ce credit ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "deuxieme besoin d'utilisation du crédit"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "e3be7b2724162edb38864792f8f00363eb475f18"
+		},
+		"besoin3": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "besoin3",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "intrants,main d'œuvre,équipements,consommation,logement,transport,habillement,investissement activités productive,intrants et main d'oeuvre,intrants et équipements,intrants et main d'oeuvre et équipements"
+			},
+			"label": {
+				"2": "Quel est le troisième besoin d'utilisation de ce credit ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quel est le troisième besoin d'utilisation de ce credit ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "troisieme besoin d'utilisation du credit"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "84cb76546dc6b51baa29cdd33cac94b4cd5fd77a",
+			"skipRule": {
+				"equals_1_2_3_4_5_6_7_8_9_10_11": {
+					"tabPath": [
+						"moduleBeginningSR",
+						"ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501",
+						"principalescontraintesetopportunitsdelacultureduriz1460740113657",
+						"contrfilriz"
+					],
+					"rule": "equals",
+					"indice": 0,
+					"matchingValues": [
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			}
+		},
+		"raison1": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "raison1",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "méconnaissance du système,absence institution crédit,manque de garantie,taux d'intérêt élevé,montant épargne préalable élevé,non couverture des besoins,méconnaissance,crédit non remboursé"
+			},
+			"label": {
+				"2": "Quelle est la première raison pour laquelle vous n'avez pas accès au crédit ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la première raison pour laquelle vous n'avez pas accès au crédit ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Premiere raison non acces au credit"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "b07d53e5a6384c7504fe05d40f31903e5159fff0"
+		},
+		"raison2": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "raison2",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "méconnaissance du système,absence institution crédit,manque de garantie,taux d'intérêt élevé,montant épargne préalable élevé,non couverture des besoins,méconnaissance,crédit non remboursé"
+			},
+			"label": {
+				"2": "Quelle est la deuxième raison pour laquelle vous n'avez pas accès au crédit ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la deuxième raison pour laquelle vous n'avez pas accès au crédit ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "deuxieme raison non acces au credit"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "91270e8b578a36abfff110fe8c206fc0933abb36"
+		},
+		"raison3": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "raison3",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "méconnaissance du système,absence institution crédit,manque de garantie,taux d'intérêt élevé,montant épargne préalable élevé,non couverture des besoins,méconnaissance,crédit non remboursé"
+			},
+			"label": {
+				"2": "Quelle est la troisième raison pour laquelle vous n'avez pas accès au crédit ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la troisième raison pour laquelle vous n'avez pas accès au crédit ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "troisieme raison non acces au credit"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "1c27b40ea608f8ab7a520126779a5b22dedd831d"
+		}
+	},
+	"nomObjetModule": "Accsetutilisationcrdit1433669839176",
+	"id": "71ae025dd4d3e7d089ad60f621a549f0773fe58f",
+	"listField": {}
+}

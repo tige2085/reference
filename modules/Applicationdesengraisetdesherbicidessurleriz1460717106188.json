@@ -1,0 +1,213 @@
+{
+	"nomModule": "Application des engrais et des herbicides sur le riz",
+	"name": "applicengrherbriz",
+	"description": "Application des engrais et des herbicides sur le riz",
+	"theme": "",
+	"dateVisite": "2",
+	"dateRecVisite": "",
+	"detail": {},
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"engrutil": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "engrutil",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"NPK",
+					"Urée"
+				]
+			},
+			"label": {
+				"2": "Quelles sont les engrais que vous utilisez sur le riz ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelles sont les engrais que vous utilisez sur le riz ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "engrais utilisés sur le riz"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "716435bf12c6b4ff4153b464ddeac9a6d93927ae"
+		},
+		"herbutil": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "herbutil",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Propanil",
+					"Weedone",
+					"Londax",
+					"Azoter"
+				]
+			},
+			"label": {
+				"2": "Quelles sont les herbicides que vous utilisez sur le riz ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelles sont les herbicides que vous utilisez sur le riz ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "herbicides utilisées sur le riz"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "b80205ceab248d5fb309f97d6ec4608ee5e9ab35"
+		},
+		"siutilengr": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "siutilengr",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Utilisez vous des engrais dans la culture du riz ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Utilisez vous des engrais dans la culture du riz ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Utilisez vous des engrais dans la culture du riz"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "f51756a269ebeb5201d5a31e8d68653ea9ef6981",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"siutilherb"
+					],
+					"rule": "equals",
+					"indice": 2,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"siutilherb": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "siutilherb",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Utilisez vous des herbicides dans la culture du riz ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Utilisez vous des herbicides dans la culture du riz ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Utilisez vous des herbicides dans la culture du riz"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "b6039d452815ff59d1b00d239bebfd4774237983",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"moduleBeginningSR",
+						"ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501",
+						"Applicationdesengraisetdesherbicidessurleriz1460717106188",
+						"informationsurlutilisationdesengraisetherbicidessurleriz1460717782867",
+						"engherb"
+					],
+					"rule": "equals",
+					"indice": 0,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		}
+	},
+	"nomObjetModule": "Applicationdesengraisetdesherbicidessurleriz1460717106188",
+	"primarykey": "",
+	"id": "71151841bea8faf85b42e090c412c53d5d508a86",
+	"listField": {},
+	"listVar": [
+		"siutilengr",
+		"engrutil",
+		"siutilherb",
+		"herbutil"
+	]
+}

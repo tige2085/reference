@@ -1,0 +1,264 @@
+{
+	"listVar": [
+		"encadr",
+		"specul",
+		"structur",
+		"techno",
+		"techutil"
+	],
+	"nomModule": "Collaboration avec les structures techniques",
+	"name": "collabstruct",
+	"description": "Collaboration avec les structures techniques",
+	"theme": "",
+	"dateVisite": "1",
+	"dateRecVisite": "",
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"encadr": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "encadr",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Oui,Non"
+			},
+			"label": {
+				"2": "Etes-vous encadrés par une structure technique ou de développement ou de recherche sur les cultures pratiquées ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Etes-vous encadrés par une structure technique ou de développement ou de recherche sur les cultures pratiquées ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "encadrement par une structure"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "6759830c684b5346ad5d5be496418abbc0f9d786",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"techno"
+					],
+					"rule": "equals",
+					"indice": 3,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"specul": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "specul",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Riz",
+					"Autres céréales",
+					"Maraichage",
+					"Autres cultures"
+				]
+			},
+			"label": {
+				"2": "Quelles sont les spéculations sur lesquelles vous avez été encadrés ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelles sont les spéculations sur lesquelles vous avez été encadrés ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": ""
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "4da55b877c57dc07ab7df0b8ea144f61bd237ad7"
+		},
+		"structur": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "structur",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"ISRA",
+					"AfricaRice",
+					"ITA",
+					"Universités",
+					"SAED",
+					"ANCAR",
+					"PDMAS",
+					"MCI",
+					"DRDR/SDRR",
+					"Service Elevage",
+					"ONG",
+					"Service eaux et Forêts"
+				]
+			},
+			"label": {
+				"2": "Quelles sont les structures qui ont effectuées ces encadrements ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelles sont les structures qui ont effectuées ces encadrements ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "structures ayant effectuées ces encadrements"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "4af44e88b320c90e118363a132f9352d1d2d7cf0"
+		},
+		"techno": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "techno",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Durant ces trois dernières années (2014-2016) avez-vous utilisé une ou plusieurs nouvelles technologies sur le riz ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Durant ces trois dernières années (2014-2016) avez-vous utilisé une ou plusieurs nouvelles technologies sur le riz ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "technologies utilisées sur le riz de 2014 à 2016"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "e405fa83fe9cfe003b49fd852d4429d0eff2f914",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"moduleBeginningSR",
+						"ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501",
+						"Natureetqualitdessols1460667172270",
+						"type1"
+					],
+					"rule": "equals",
+					"indice": 0,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"techutil": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "techutil",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Nouvelle variété",
+					"Nouvelle utilisation semence",
+					"Nouvel itinéraire technique",
+					"Mode utilisation engrais/Super granulés",
+					"Mode ou dose utilisation engrais",
+					"Pratiques culturales",
+					"Gestion des sols et eaux",
+					"Conseil économique ou social sur la gestion des cultures"
+				]
+			},
+			"label": {
+				"2": "Quelles sont ces nouvelles technologies ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": ""
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "nouvelles technologies utilisées"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "ff2a924968edb457567ecde61354b90f81316730"
+		}
+	},
+	"nomObjetModule": "Collaborationaveclesstructurestechniques1433627410918",
+	"id": "d9b8f7e49e5eeedd9476119cdb4d0963770ca2fb",
+	"listField": {}
+}

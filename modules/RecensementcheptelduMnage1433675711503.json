@@ -1,0 +1,282 @@
+{
+	"listVar": [
+		"espece",
+		"aespece",
+		"taille",
+		"comp2014",
+		"destock",
+		"raisdstck"
+	],
+	"nomModule": "Recensement cheptel du Ménage",
+	"name": "recenschept",
+	"description": "Recensement cheptel du Ménage",
+	"theme": "",
+	"dateVisite": "3",
+	"dateRecVisite": "",
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"espece": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "espece",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Bovin,Ovin,Caprin,Equin ou cheval,Asin ou ânes,Animaux de trait,Volailles"
+			},
+			"label": {
+				"2": "Espèces"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Espèces"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Especes"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "8912fa6b1c55f65674eba929213b500ea215500e"
+		},
+		"taille": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "taille",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est le nombre de tête dont vous disposez actuellement ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est le nombre de tête dont vous disposez actuellement ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "nombre de tête dont vous disposez actuellement"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "50217d4d94a22d812d2a0fc9995a865513012364"
+		},
+		"destock": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "destock",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est le nombre de déstockage (2015) ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est le nombre de déstockage (2015) ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "le nombre déstockage 2015"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "c382c28a2c087f9bafbbd616a4a49cdf369bf02a",
+			"skipRule": {
+				"equals_0": {
+					"tabPath": [
+						"moduleBeginningSR",
+						"ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501",
+						"Autresactivitsagricole1433686950196",
+						"aactagr"
+					],
+					"rule": "equals",
+					"indice": 0,
+					"matchingValues": [
+						"0",
+						""
+					]
+				}
+			}
+		},
+		"raisdstck": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "raisdstck",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "besoins intrants,besoins équipements agricoles,besoins immédiats de dépense,cérémonie familiale mariage,décès,baptême,réception hôtes,morts,maladie"
+			},
+			"label": {
+				"2": "Quelle sont les principales raison de ce déstockage ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle sont les principales raison de ce déstockage ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "principales raison de ce déstockage"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "07bd5fb0ea01038d4e7b20e6a285b04efc2f6a72"
+		},
+		"aespece": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "aespece",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Oui,Non"
+			},
+			"label": {
+				"2": "Possédez vous cette espèce ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Possédez vous cette espèce ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "possession de l'espèce"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "a7afb3ed4b9e8e5591dc485eec961df3acce1fec",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"moduleBeginningSR",
+						"ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501",
+						"Autresactivitsagricole1433686950196",
+						"aactagr"
+					],
+					"rule": "equals",
+					"indice": 0,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"comp2014": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "comp2014",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Augmentation,Stagnation,Diminution"
+			},
+			"label": {
+				"2": "Quelle est l'évolution par rapport à l'année 2014 ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est l'évolution par rapport à l'année 2014 ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "évolution par rapport à 2014"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "e1d1eca3b4c2a8f958d97a078513c6d34b81dd54"
+		}
+	},
+	"nomObjetModule": "RecensementcheptelduMnage1433675711503",
+	"id": "575d338f658d2dba4fdb9da400d02b3d6f20ece7",
+	"traverseOrder": {
+		"value": "aqli",
+		"variable": "espece",
+		"audioTransition": "",
+		"tabList": [
+			"aespece",
+			"taille",
+			"comp2014",
+			"destock",
+			"raisdstck"
+		]
+	},
+	"listField": {}
+}

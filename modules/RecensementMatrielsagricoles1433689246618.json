@@ -1,0 +1,205 @@
+{
+	"listVar": [
+		"matagr",
+		"typeutil",
+		"pretmat",
+		"prestservmat"
+	],
+	"nomModule": "Recensement et Utilisation de petits équipements agricoles",
+	"name": "materagric",
+	"description": "Recensement et Utilisation de petits équipements agricoles",
+	"theme": "",
+	"dateVisite": "3",
+	"dateRecVisite": "",
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"matagr": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "matagr",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "boundModule+ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501_possmat+1+matposd"
+			},
+			"label": {
+				"2": "Type de matériels"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Type de matériels"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": ""
+			},
+			"round": {
+				"2": "type de materiels"
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "6b3cd425d3ee51199b0655fbf5c40ba9ea32940e"
+		},
+		"typeutil": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "typeutil",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Utilisation personnelle",
+					"utilisation par un ouvrier rénuméré",
+					"Autre utilisation"
+				]
+			},
+			"label": {
+				"2": "Quelle type d'utilisation faites vous de ce matériel ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle type d'utilisation faites vous de ce matériel ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": ""
+			},
+			"round": {
+				"2": "Quelle type d'utilisation faites vous de ce matériel"
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "7bc9c8f3bbbc52f76753a8858991e8f1855ec002",
+			"skipRule": {
+				"equals_1_2": {
+					"tabPath": [
+						"moduleBeginningSR",
+						"ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501",
+						"autreinformationsurlematrielagricole1460815122845",
+						"CAUSEQ1"
+					],
+					"rule": "equals",
+					"indice": 0,
+					"matchingValues": [
+						1,
+						2
+					]
+				}
+			}
+		},
+		"pretmat": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "pretmat",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Prêtez vous ce matériel ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Prêtez vous ce matériel ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Prêtez vous ce matériel"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "eed55b4471c43c385b067b231e879416081597a4"
+		},
+		"prestservmat": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "prestservmat",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Ce matériel est t'il utilisé pour des prestations de service ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Ce matériel est t'il utilisé pour des prestations de service ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Ce matériel est t'il utilisé pour des prestations de service"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "d5a95b10bac2358a75fe67f3fd6fa73efc743bfa"
+		}
+	},
+	"nomObjetModule": "RecensementMatrielsagricoles1433689246618",
+	"id": "bea7dc0e61705a8671872d2122fc44f0b042ec20",
+	"listField": {},
+	"traverseOrder": {
+		"value": "aqli",
+		"variable": "matagr",
+		"audioTransition": "",
+		"tabList": [
+			"typeutil",
+			"pretmat",
+			"prestservmat"
+		]
+	}
+}

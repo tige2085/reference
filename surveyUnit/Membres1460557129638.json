@@ -1,0 +1,40 @@
+{
+	"nomObjetSurveyUnit": "Membres1460557129638",
+	"nomSurveyUnit": "Membres",
+	"description": "Membres",
+	"name": "membres",
+	"alias": "ajout membre",
+	"giscoord": "no",
+	"surveyType": "",
+	"theme": "",
+	"detail": "",
+	"dateVisite": "",
+	"dateRecVisite": "",
+	"primarykey": "",
+	"id": "ec18a7cff110bc3bc78b5f54a78349d52834a132",
+	"langueSurveyUnit": "2",
+	"listSousModule": [],
+	"listSousSurveyUnit": [],
+	"listeVariable": [],
+	"listField": {},
+	"properties": {
+		"caracteristique": {
+			"typeVariable": "text",
+			"nomVariable": "primarykey",
+			"restriction": ""
+		},
+		"tabOption": "",
+		"label": {
+			"2": "Membres"
+		},
+		"name": "membres",
+		"alias": {
+			"2": "ajout membre"
+		},
+		"description": {
+			"2": "Membres"
+		},
+		"giscoord": "no",
+		"filter": ""
+	}
+}

@@ -1,0 +1,316 @@
+{
+	"nomObjetSurveyUnit": "Mnages1460557082622",
+	"nomSurveyUnit": "Ménages",
+	"description": "Ménages",
+	"name": "menages",
+	"alias": "ménage",
+	"giscoord": "no",
+	"surveyType": "",
+	"theme": "",
+	"detail": "",
+	"dateVisite": "",
+	"dateRecVisite": "",
+	"primarykey": "",
+	"id": "75598a75996ef75cee9415513a8e06d3e38f2455",
+	"langueSurveyUnit": "2",
+	"listSousModule": [
+		{
+			"nomSousModule": "IDENTIFICATION",
+			"nomObjetSousModule": "IDENTIFICATION1433593664338",
+			"path": [
+				"demo50_assoc",
+				"IDENTIFICATION1433593664338_assoc"
+			]
+		},
+		{
+			"nomSousModule": "CARACTERISATION SOCIO-DEMOGRAPHIQUE",
+			"nomObjetSousModule": "CARACTERISATIONSOCIODEMOGRAPHIQUE1433594043875",
+			"path": [
+				"demo50_assoc",
+				"CARACTERISATIONSOCIODEMOGRAPHIQUE1433594043875_assoc"
+			]
+		},
+		{
+			"nomSousModule": "ACTIVITES AGRICOLES ET NON AGRICOLES DU MENAGE",
+			"nomObjetSousModule": "ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501",
+			"path": [
+				"demo50_assoc",
+				"ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501_assoc"
+			]
+		},
+		{
+			"nomSousModule": "DESCRIPTION DE L'ITINERAIRE TECHNIQUE PRATIQUE PAR LE MENAGE SUR LE RIZ",
+			"nomObjetSousModule": "ITINERAIRETECHNIQUE1433690350308",
+			"path": [
+				"demo50_assoc",
+				"ITINERAIRETECHNIQUE1433690350308_assoc"
+			]
+		}
+	],
+	"listSousSurveyUnit": [
+		{
+			"nomObjetSousSurveyUnit": "Membres1460557129638",
+			"nomSousSurveyUnit": "Membres",
+			"description": "Membres",
+			"surveyType": "",
+			"theme": "",
+			"detail": "",
+			"dateVisite": "",
+			"dateRecVisite": ""
+		},
+		{
+			"nomObjetSousSurveyUnit": "Cultures1460559414380",
+			"nomSousSurveyUnit": "Cultures",
+			"description": "Cultures",
+			"surveyType": "",
+			"theme": "",
+			"detail": "",
+			"dateVisite": "",
+			"dateRecVisite": ""
+		}
+	],
+	"listeVariable": {
+		"arrond": {
+			"caracteristique": {
+				"typeVariable": "text",
+				"nomVariable": "arrond",
+				"restriction": ""
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Arrondissement"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Arrondissement"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "arrondissement"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "75eb93f1811d692b7f1d6deecfd56cd97efb7083"
+		},
+		"commu": {
+			"caracteristique": {
+				"typeVariable": "text",
+				"nomVariable": "commu",
+				"restriction": ""
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Communauté"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Communauté"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "communaute"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "a391d9b081fdd19f5a319dcbf24ada4a39c7664e"
+		},
+		"village": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "village",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Alarba",
+					"Bokhol",
+					"Codi",
+					"Dagana",
+					"Diama",
+					"Diagambal",
+					"Donaye",
+					"Fanaye",
+					"Gaya",
+					"Guédé",
+					"Guia",
+					"Mbagam",
+					"Mbodjène",
+					"Mboubène",
+					"Ndelle",
+					"Ndombo",
+					"Ourro Madi",
+					"Pont-Gendarme",
+					"Rosso Sénégal",
+					"Ross-bethio",
+					"Thiagar",
+					"Thiago",
+					"Thiago Nguer",
+					"Thilène"
+				]
+			},
+			"label": {
+				"2": "Village d'étude"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Village d'étude"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "yes"
+			},
+			"description": {
+				"2": "Village d'étude"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "3bdc3ec682bfbb471422925f9a71fc67e6c0ca3c"
+		},
+		"region": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "region",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Saint-Louis",
+					"Matam"
+				]
+			},
+			"label": {
+				"2": "Région"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Région"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Région"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "a94a58406ef24e931ffe5c077c69b8bd8e3ac282"
+		},
+		"depart": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "depart",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Dagana",
+					"Kanel",
+					"Matam",
+					"Podor",
+					"Ranérou-Ferlo",
+					"Saint-Louis"
+				]
+			},
+			"label": {
+				"2": "Département"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Département"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Département"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "147bc781dc8ad75dff4139a1893644b0b4bf107a"
+		}
+	},
+	"listField": {},
+	"properties": {
+		"caracteristique": {
+			"typeVariable": "text",
+			"nomVariable": "primarykey",
+			"restriction": ""
+		},
+		"tabOption": "",
+		"label": {
+			"2": "Ménages"
+		},
+		"name": "menages",
+		"alias": {
+			"2": "ménage"
+		},
+		"description": {
+			"2": "Ménages"
+		},
+		"giscoord": "no",
+		"filter": ""
+	},
+	"listVar": [
+		"region",
+		"depart",
+		"arrond",
+		"commu",
+		"village"
+	]
+}

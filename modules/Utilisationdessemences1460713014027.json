@@ -1,0 +1,371 @@
+{
+	"nomModule": "Utilisation des semences",
+	"name": "utilsemence",
+	"description": "Utilisation des semences",
+	"theme": "",
+	"dateVisite": "2",
+	"dateRecVisite": "",
+	"detail": {},
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"specult": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "specult",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Cultures-bound_Cultures1460559414380"
+				]
+			},
+			"label": {
+				"2": "Spéculation"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Spéculation"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Spéculation"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "d9e56e317452d47813331675013fe1133c3095fa"
+		},
+		"utilsem": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "utilsem",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Avez vous utilisé des semences de la spéculation ci-dessus ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Avez vous utilisé des semences de la spéculation ci-dessus ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "utilisation des semences de la spéculation"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "48acae30625d2d897dde330cbc08c19146200e0e",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"moduleBeginningSR",
+						"ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501",
+						"Informationsurlessemencescertifies1460715241166",
+						"connaiscert"
+					],
+					"rule": "equals",
+					"indice": 0,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"quantsem": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "quantsem",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est la quantité de semence utilisée par ha lors de la dernière campagne ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la quantité de semence utilisée par ha lors de la dernière campagne ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "quantité de semence utilisée par ha lors de la dernière campagne"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "53302f34b28fc52035f8ae0309c5e42296cd5966"
+		},
+		"sourcdose": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "sourcdose",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"ISRA",
+					"AfricaRice",
+					"ITA",
+					"Universités",
+					"SAED",
+					"ANCAR",
+					"SODAGRI",
+					"DRDR/SDRR",
+					"Autre paysan",
+					"USAID",
+					"ONG"
+				]
+			},
+			"label": {
+				"2": "Quelle est la source de provenance de l'information sur la dose utilisée ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la source de provenance de l'information sur la dose utilisée ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "source de provenance de l'information sur la dose utilisée"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "165235f7ca2296cc39e8e73be06ccfd4f4a9e5a1"
+		},
+		"dosutirel": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "dosutirel",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est la dose par ha que vous souhaiterez réellement utiliser ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la dose par ha que vous souhaiterez réellement utiliser ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Quelle est la dose par ha que vous souhaiterez réellement utiliser"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "9902f04279127a39c2256cb5eba957cae0ecd49f"
+		},
+		"raisdiffrs": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "raisdiffrs",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"présence oiseaux",
+					"pas de bonnes semences",
+					"manque nivellement et planage",
+					"manque de moyen",
+					"dose utilisée satisfaisante",
+					"entraine pas hausse élevée rendement"
+				]
+			},
+			"label": {
+				"2": "Quelle est la raison s'il existe de l'écart entre la dose recommandée et la dose que vous souhaitez utiliser ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la raison s'il existe de l'écart entre la dose recommandée et la dose que vous souhaitez utiliser ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "raison écart dose recommandée et souhaitée"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "0994005182138317f3cd38f59f8f602dc5d44878"
+		},
+		"typesem": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "typesem",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"semences certifiées",
+					"propres semences",
+					"achat de tout venant"
+				]
+			},
+			"label": {
+				"2": "Quelle type de semence utilisez vous pour la spéculation ci-dessus ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle type de semence utilisez vous pour la spéculation ci-dessus ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "type de semence utilisé pour la spéculation"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "bc5ed2d3cf5d4e70eebc6e0db6dd8a610fbe4155"
+		},
+		"variété": {
+			"caracteristique": {
+				"typeVariable": "text",
+				"nomVariable": "variété",
+				"restriction": ""
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est la principale variété utilisée pour la spéculation ci-dessus ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la principale variété utilisée pour la spéculation ci-dessus ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "principale variété utilisée pour la spéculation"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "413a9e9af2b6c287e53003adea2d063a42ba3fc9"
+		}
+	},
+	"nomObjetModule": "Utilisationdessemences1460713014027",
+	"primarykey": "",
+	"id": "fe0012ac7428a6f3c68fdf5d93805bb48480afd6",
+	"listField": {},
+	"listVar": [
+		"specult",
+		"utilsem",
+		"variété",
+		"quantsem",
+		"sourcdose",
+		"dosutirel",
+		"raisdiffrs",
+		"typesem"
+	],
+	"traverseOrder": {
+		"value": "aqli",
+		"variable": "specult",
+		"audioTransition": "",
+		"tabList": [
+			"utilsem",
+			"variété",
+			"quantsem",
+			"sourcdose",
+			"dosutirel",
+			"raisdiffrs",
+			"typesem"
+		]
+	}
+}

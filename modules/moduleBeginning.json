@@ -1,0 +1,27 @@
+{
+	"nomObjetModule": "moduleBeginning",
+	"nomModule": "moduleBeginning",
+	"langueModule": "2",
+	"listSousModule": [
+		{
+			"nomObjetSousModule": "IDENTIFICATION1433593664338",
+			"nomSousModule": "IDENTIFICATION",
+			"id": "d31abac89472ca3a52869f252e8fdbab57b0c367"
+		},
+		{
+			"nomObjetSousModule": "CARACTERISATIONSOCIODEMOGRAPHIQUE1433594043875",
+			"nomSousModule": "CARACTERISATION SOCIO-DEMOGRAPHIQUE",
+			"id": "579a443468880313c265c9b02cb62cd71a56693c"
+		},
+		{
+			"nomObjetSousModule": "ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501",
+			"nomSousModule": "ACTIVITES AGRICOLES ET NON AGRICOLES DU MENAGE",
+			"id": "a676493eb10eb50e8a18d02f961b8a3365f227ad"
+		},
+		{
+			"nomObjetSousModule": "ITINERAIRETECHNIQUE1433690350308",
+			"nomSousModule": "DESCRIPTION DE L'ITINERAIRE TECHNIQUE PRATIQUE PAR LE MENAGE SUR LE RIZ",
+			"id": "dbcdc83259d2c64a3fef2b907e3b3e8999b7162e"
+		}
+	]
+}

@@ -1,0 +1,170 @@
+{
+	"listVar": [
+		"aactagr",
+		"revaact15",
+		"nbrfaact",
+		"nbrhaact"
+	],
+	"nomModule": "Autres activités agricole",
+	"name": "autractagr",
+	"description": "Autres activités agricole",
+	"theme": "",
+	"dateVisite": "3",
+	"dateRecVisite": "",
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"aactagr": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "aactagr",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "boundModule+ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501_paactagr+1+aactagr"
+			},
+			"label": {
+				"2": "Autres activités agricoles"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Autres activités agricoles"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "autres activités agricoles"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "6b7de4b5f5ff265006e44e5f1f45a9f9b355c30d"
+		},
+		"nbrfaact": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "nbrfaact",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est le nombre de femme impliqué dans cette activité ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est le nombre de femme impliqué dans cette activité ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "nombre de femme impliqué dans l'activite"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "c85e201674ef420f43b0b559a89540df84ee5ae5"
+		},
+		"nbrhaact": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "nbrhaact",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est le nombre d'homme impliqué dans l'activité ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est le nombre d'homme impliqué dans l'activité ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "nombre d'homme implique dans l'activite"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "4179ba3051feb75ac003fab434e252988fe78bf4"
+		},
+		"revaact15": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "revaact15",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est le niveau de revenu global estimé en 2015 ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est le niveau de revenu global estimé en 2015 ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "niveau de revenu en 2015"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "ad4341819722d77a8e82cce540629ab70ec5e528"
+		}
+	},
+	"nomObjetModule": "Autresactivitsagricole1433686950196",
+	"id": "4a7cfd5e6013a075399784d1e6763d3aa99e351e",
+	"traverseOrder": {
+		"value": "aqli",
+		"variable": "aactagr",
+		"audioTransition": "",
+		"tabList": [
+			"revaact15",
+			"nbrfaact",
+			"nbrhaact"
+		]
+	},
+	"listField": {}
+}

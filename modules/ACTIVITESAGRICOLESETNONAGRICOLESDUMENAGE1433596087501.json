@@ -1,0 +1,773 @@
+{
+	"listVar": [
+		"periodxplb",
+		"periodxplt",
+		"surfnxplt",
+		"raisnxplt1",
+		"raisnxplt2",
+		"raisnxplt3",
+		"qualite",
+		"paactagr",
+		"aactagr",
+		"pactnagr",
+		"actnagr",
+		"possmat",
+		"matposd"
+	],
+	"nomModule": "ACTIVITES AGRICOLES ET NON AGRICOLES DU MENAGE",
+	"name": "actmenage",
+	"description": "ACTIVITES AGRICOLES ET NON AGRICOLES DU MENAGE",
+	"theme": "",
+	"dateVisite": "1*2*3",
+	"dateRecVisite": "",
+	"langueModule": "2",
+	"listSousModule": [
+		{
+			"nomObjetSousModule": "Rpartitiondessuperficiesexploitesparrapportauxculturesen201520161460633484782",
+			"nomSousModule": "Répartition des superficies exploitées par rapport aux cultures en 2015/2016"
+		},
+		{
+			"nomObjetSousModule": "Rpartitiondessuperficiesexploitesparrapportauxculturesen20141433603098905",
+			"nomSousModule": "Répartition des superficies exploitées par rapport aux cultures en 2014/2015",
+			"id": "5ca0895ac4c359185fa2bc93b065e614d7eb1dc6"
+		},
+		{
+			"nomObjetSousModule": "Informationsurlessuperficiesemblavesenriz1433625157421",
+			"nomSousModule": "Information sur les superficies emblavées en riz",
+			"id": "8a8ca3cfd78dddb27f801b480fb5bc2e7cc099ad"
+		},
+		{
+			"nomObjetSousModule": "Collaborationaveclesstructurestechniques1433627410918",
+			"nomSousModule": "Collaboration avec les structures techniques",
+			"id": "d9b8f7e49e5eeedd9476119cdb4d0963770ca2fb"
+		},
+		{
+			"nomObjetSousModule": "Natureetqualitdessols1460667172270",
+			"nomSousModule": "Nature et qualité des sols"
+		},
+		{
+			"nomObjetSousModule": "UtilisationdestechnologiespilotesparleWAAPPPPAO1433657011788",
+			"nomSousModule": "Utilisation des technologies",
+			"id": "1b93e8fad0fe884d8481407f3af9693322c8628a"
+		},
+		{
+			"nomObjetSousModule": "Utilisationdessemences1460713014027",
+			"nomSousModule": "Utilisation des semences"
+		},
+		{
+			"nomObjetSousModule": "Informationsurlessemencescertifies1460715241166",
+			"nomSousModule": "Information sur les semences certifiées"
+		},
+		{
+			"nomObjetSousModule": "Applicationdesengraisetdesherbicidessurleriz1460717106188",
+			"nomSousModule": "Application des engrais et des herbicides sur le riz"
+		},
+		{
+			"nomObjetSousModule": "Accsauxsemences1460732585899",
+			"nomSousModule": "Accès aux semences"
+		},
+		{
+			"nomObjetSousModule": "informationsurlutilisationdesengraisetherbicidessurleriz1460717782867",
+			"nomSousModule": "information sur l'utilisation des engrais et herbicides sur le riz"
+		},
+		{
+			"nomObjetSousModule": "Accsauxherbicides1460737765891",
+			"nomSousModule": "Accès aux herbicides"
+		},
+		{
+			"nomObjetSousModule": "Accsauxengrais1460733858628",
+			"nomSousModule": "Accès aux engrais"
+		},
+		{
+			"nomObjetSousModule": "Accsetutilisationcrdit1433669839176",
+			"nomSousModule": "Accès au crédit",
+			"id": "71ae025dd4d3e7d089ad60f621a549f0773fe58f"
+		},
+		{
+			"nomObjetSousModule": "principalescontraintesetopportunitsdelacultureduriz1460740113657",
+			"nomSousModule": "principales contraintes et opportunités de la culture du riz"
+		},
+		{
+			"nomObjetSousModule": "ProductionAgricole20141433671999888",
+			"nomSousModule": "Production Agricole 2015",
+			"id": "fc16dbd7f7997e3635701ce15fe45102d584fea9"
+		},
+		{
+			"nomObjetSousModule": "Activitsdlevage1433674677663",
+			"nomSousModule": "Activités d'élevage",
+			"id": "99ab2fae8ff812ac70da25be5add4c0a32c1c5cc"
+		},
+		{
+			"nomObjetSousModule": "Autresactivitsagricole1433686950196",
+			"nomSousModule": "Autres activités agricole",
+			"id": "4a7cfd5e6013a075399784d1e6763d3aa99e351e"
+		},
+		{
+			"nomObjetSousModule": "Autresactivitsagricoles1433677205830",
+			"nomSousModule": "Activités non agricoles",
+			"id": "efe5e1fa02a08a42aa62057cdbef76735a246b8b"
+		},
+		{
+			"nomObjetSousModule": "RecensementMatrielsagricoles1433689246618",
+			"nomSousModule": "Recensement et Utilisation de petits équipements agricoles",
+			"id": "bea7dc0e61705a8671872d2122fc44f0b042ec20"
+		},
+		{
+			"nomObjetSousModule": "autreinformationsurlematrielagricole1460815122845",
+			"nomSousModule": "autre information sur le matériel agricole"
+		}
+	],
+	"listeVariable": {
+		"periodxplb": {
+			"caracteristique": {
+				"typeVariable": "nested",
+				"nomVariable": "periodxplb",
+				"restriction": ""
+			},
+			"tabOption": {
+				"listeVariable": {
+					"suprfxbl": {
+						"caracteristique": {
+							"typeVariable": "number",
+							"nomVariable": "suprfxbl",
+							"restriction": "***ha"
+						},
+						"tabOption": "",
+						"label": {
+							"2": "Quelle est la superficie exploitable du ménage durant la période agricole ci-dessous ?"
+						},
+						"indication": {
+							"2": ""
+						},
+						"mouseover": {
+							"2": ""
+						},
+						"textComment": {
+							"2": "Quelle est la superficie exploitable du ménage durant la période agricole ci-dessous ?"
+						},
+						"giscoord": {
+							"2": "no"
+						},
+						"required": {
+							"2": "no"
+						},
+						"description": {
+							"2": "superficie exploitable disponible du ménage"
+						},
+						"id": "6baa44e613e7c601bc9535bf6b14baf2a513f114"
+					}
+				},
+				"nestedType": "nestedColl",
+				"tabItems": {
+					"2": [
+						"Hivernage 2015",
+						"Contre Saison Froide 2016",
+						"Contre saison chaude 2016"
+					]
+				},
+				"type": "specItems",
+				"tabVarNested": [
+					"suprfxbl"
+				]
+			},
+			"label": {
+				"2": "Période agricole superficie exploitable"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Période agricole superficie exploitable"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "periode agricole superficie exploitable"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "31f4ddb8a881d3d6576ca32697bdc961f80f709e"
+		},
+		"periodxplt": {
+			"caracteristique": {
+				"typeVariable": "nested",
+				"nomVariable": "periodxplt",
+				"restriction": ""
+			},
+			"tabOption": {
+				"listeVariable": {
+					"suprfxpt": {
+						"caracteristique": {
+							"typeVariable": "number",
+							"nomVariable": "suprfxpt",
+							"restriction": "***ha"
+						},
+						"tabOption": "",
+						"label": {
+							"2": "Quel est la superficie exploitée par le ménage durant la période agricole ci dessous ?"
+						},
+						"indication": {
+							"2": ""
+						},
+						"mouseover": {
+							"2": ""
+						},
+						"textComment": {
+							"2": "Quel est la superficie exploitée par le ménage durant la période agricole ci dessous ?"
+						},
+						"giscoord": {
+							"2": "no"
+						},
+						"required": {
+							"2": "no"
+						},
+						"description": {
+							"2": "superficie exploitée par le ménage"
+						},
+						"id": "33f2b7ca19193f9be405637235a3aec2c5a018f2"
+					}
+				},
+				"nestedType": "nestedColl",
+				"tabItems": {
+					"2": [
+						"Hivernage 2015",
+						"Contre Saison Froide 2016",
+						"Contre saison chaude 2016"
+					]
+				},
+				"type": "specItems",
+				"tabVarNested": [
+					"suprfxpt"
+				]
+			},
+			"label": {
+				"2": "Période agricole superficie exploitée"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Période agricole superficie exploitée"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "periode agricole superficie exploitee"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "b29b39c54a36bb0f5eb4ff981a8e2942dcced95b"
+		},
+		"qualite": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "qualite",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "très bonne,bonne,mauvaise,très mauvaise"
+			},
+			"label": {
+				"2": "Quelles est la qualité de vos terres ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelles est la qualité de vos terres ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": ""
+			},
+			"round": {
+				"2": "qualité des terres"
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "2f839de4f6769bd931ebd9641e783eef1f9bbca3"
+		},
+		"paactagr": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "paactagr",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Oui,Non"
+			},
+			"label": {
+				"2": "Pratiquez vous d'autres activités agricoles autre que la culture ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Pratiquez vous d'autres activités agricoles autre que la culture ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "autres activites agricole"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "921c95cf15d0da68ecc20d2ff94f7ab7ac17de83",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": "pactnagr",
+					"rule": "equals",
+					"indice": 7,
+					"matchingValues": 2
+				}
+			}
+		},
+		"aactagr": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "aactagr",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "cueillette,produits agro forestiers,pêche"
+			},
+			"label": {
+				"2": "Quelles sont les autres activités agricoles que vous pratiquez ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelles sont les autres activités agricoles que vous pratiquez ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": ""
+			},
+			"round": {
+				"2": "autres activités agricoles"
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "6b7de4b5f5ff265006e44e5f1f45a9f9b355c30d"
+		},
+		"pactnagr": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "pactnagr",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Oui,Non"
+			},
+			"label": {
+				"2": "Pratiquez vous des activités non agricoles ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Pratiquez vous des activités non agricoles ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Pratique activités non agricole"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "349fa22619ace9175fa333b9e7872d3006a46a96",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": "possmat",
+					"rule": "equals",
+					"indice": 9,
+					"matchingValues": 2
+				}
+			}
+		},
+		"actnagr": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "actnagr",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Commerce,Service,Artisanat"
+			},
+			"label": {
+				"2": "Quelles sont les activités non agricole que vous pratiquez ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelles sont les activités non agricole que vous pratiquez ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "pratiques activités non agricole"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "e4f1e62de47bfd39e18e93450556bf260872f229"
+		},
+		"possmat": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "possmat",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Oui,Non"
+			},
+			"label": {
+				"2": "Possédez vous des matériels agricoles ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Possédez vous des matériels agricoles ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Possession de materiel agricole"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "2766c6a5852a124999329509def4963fd3f7473a",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"moduleBeginningSR",
+						"ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501",
+						"Rpartitiondessuperficiesexploitesparrapportauxculturesen201520161460633484782",
+						"cult1516"
+					],
+					"rule": "equals",
+					"indice": 0,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"matposd": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "matposd",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Motoculteur",
+					"Planeur",
+					"Niveleuse",
+					"Puddler",
+					"Remorque",
+					"Charrue à disque",
+					"Pulvérisateur",
+					"repiqueuse",
+					"Faucheuse",
+					"Batteuse",
+					"Semoir",
+					"Applicateurs engrais",
+					"Granuleuse engrais",
+					"Charrette",
+					"Tracteur",
+					"Groupe Motos Pompes (GMP)",
+					"offset",
+					"Animaux de traits"
+				]
+			},
+			"label": {
+				"2": "Quelles sont les matériels agricoles que vous possédez ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelles sont les matériels agricoles que vous possédez ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "materiels agricoles possede"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "e8525f9e4d303c790d9dfe04138de9edd2d90f3e"
+		},
+		"raisnxplt1": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "raisnxplt1",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"manque de moyen financier",
+					"manque de main d’œuvre",
+					"terre inexploitable",
+					"en jachère",
+					"faible pluviométrie",
+					"terres prêtées/en location",
+					"faible fertilité",
+					"manque semences",
+					"manque intrants",
+					"manque de matériel agricole"
+				]
+			},
+			"label": {
+				"2": "Quelle est la première raison de la non exploitation du potentiel disponible ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la première raison de la non exploitation du potentiel disponible ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "première raison de la non exploitation du potentiel disponible"
+			},
+			"typeTabOption": "yes",
+			"id": "c655419642b0e311b5054fec53e92e0e214a5fa7",
+			"is_time_depend": "no"
+		},
+		"raisnxplt2": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "raisnxplt2",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"manque de moyen financier",
+					"manque de main d’œuvre",
+					"terre inexploitable",
+					"en jachère",
+					"faible pluviométrie",
+					"terres prêtées/en location",
+					"faible fertilité",
+					"manque semences",
+					"manque intrants",
+					"manque de matériel agricole"
+				]
+			},
+			"label": {
+				"2": "Quelle est la deuxième raison de la non exploitation du potentiel disponible ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la deuxième raison de la non exploitation du potentiel disponible ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "deuxième raison de la non exploitation du potentiel disponible"
+			},
+			"typeTabOption": "yes",
+			"id": "b20ef5e298eab91fc073e3ccd38929d7b0bd2b26",
+			"is_time_depend": "no"
+		},
+		"raisnxplt3": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "raisnxplt3",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"manque de moyen financier",
+					"manque de main d’œuvre",
+					"terre inexploitable",
+					"en jachère",
+					"faible pluviométrie",
+					"terres prêtées/en location",
+					"faible fertilité",
+					"manque semences",
+					"manque intrants",
+					"manque de matériel agricole"
+				]
+			},
+			"label": {
+				"2": "Quelle est la troisième raison de la non exploitation du potentiel disponible ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la troisième raison de la non exploitation du potentiel disponible ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "troisième raison de la non exploitation du potentiel disponible"
+			},
+			"typeTabOption": "yes",
+			"id": "15f6006eaa78ae05eff27c15f2abe1fed6eeca01",
+			"is_time_depend": "no"
+		},
+		"surfnxplt": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "surfnxplt",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Oui,Non"
+			},
+			"label": {
+				"2": "Avez vous des surfaces non exploitées durant l'année agricole 2015/2016 ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Avez vous des surfaces non exploitées durant l'année agricole 2015/2016 ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Avez vous des surfaces non exploitées durant l'année agricole 2015/2016"
+			},
+			"typeTabOption": "no",
+			"id": "fc904745bd2ec3ae1591261424cf54ddf36e5fcb",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"qualite"
+					],
+					"rule": "equals",
+					"indice": 6,
+					"matchingValues": [
+						2
+					]
+				}
+			},
+			"is_time_depend": "no"
+		}
+	},
+	"nomObjetModule": "ACTIVITESAGRICOLESETNONAGRICOLESDUMENAGE1433596087501",
+	"id": "a676493eb10eb50e8a18d02f961b8a3365f227ad",
+	"listField": {}
+}

@@ -1,0 +1,10 @@
+{
+	"description": "ETUDE DE REFERENCE SUR L'UTILISATION DES SEMENCES",
+	"langueQuest": "2",
+	"nameIDB": "ETUDE DE REFERENCE SUR L'UTILISATION DES SEMENCES",
+	"type": "survey",
+	"restrict": [
+		"builder"
+	],
+	"collection": "reference"
+}

@@ -1,0 +1,128 @@
+{
+	"listVar": [
+		"entanm",
+		"revanm",
+		"revspnm"
+	],
+	"nomModule": "Activités d'élevage",
+	"name": "elevage",
+	"description": "Activités d'élevage",
+	"theme": "",
+	"dateVisite": "3",
+	"dateRecVisite": "",
+	"langueModule": "2",
+	"listSousModule": [
+		{
+			"nomObjetSousModule": "RecensementcheptelduMnage1433675711503",
+			"nomSousModule": "Recensement cheptel du Ménage",
+			"id": "575d338f658d2dba4fdb9da400d02b3d6f20ece7"
+		}
+	],
+	"listeVariable": {
+		"entanm": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "entanm",
+				"restriction": "***fcfa*"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est le montant annuel estimé pour l'entretien des animaux ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est le montant annuel estimé pour l'entretien des animaux ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "montant annuel entretien des animaux"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "15cfa71ffb6ee91869ce1e3333b0da1e8440bdc8"
+		},
+		"revanm": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "revanm",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est le revenu annuel tiré de la vente des animaux ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est le revenu annuel tiré de la vente des animaux ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "revenu annuel vente d'animaux"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "bfc17cb94a3b4f92be841297d393f69afbe1511f"
+		},
+		"revspnm": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "revspnm",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est le revenu tiré des sous-produits d’élevage (lait, beurre, peaux, etc.) ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est le revenu tiré des sous-produits d’élevage (lait, beurre, peaux, etc.) ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "revenu tire des sous produits d'elevage"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "19702c897f19fce182ce7011b870435cde78af08"
+		}
+	},
+	"nomObjetModule": "Activitsdlevage1433674677663",
+	"id": "99ab2fae8ff812ac70da25be5add4c0a32c1c5cc",
+	"listField": {}
+}

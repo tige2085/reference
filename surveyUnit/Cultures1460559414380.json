@@ -1,0 +1,50 @@
+{
+	"nomObjetSurveyUnit": "Cultures1460559414380",
+	"nomSurveyUnit": "Cultures",
+	"description": "Cultures",
+	"name": "cultures",
+	"alias": "ajout Culture",
+	"giscoord": "no",
+	"surveyType": "",
+	"theme": "",
+	"detail": "",
+	"dateVisite": "",
+	"dateRecVisite": "",
+	"primarykey": "",
+	"id": "edab7899a24ab26a51c212cf4c1be51a683011fb",
+	"langueSurveyUnit": "2",
+	"listSousModule": [],
+	"listSousSurveyUnit": [],
+	"listeVariable": [],
+	"listField": {},
+	"properties": {
+		"caracteristique": {
+			"typeVariable": "select",
+			"nomVariable": "primarykey",
+			"restriction": ""
+		},
+		"tabOption": {
+			"2": [
+				"Arachide",
+				"Mais",
+				"Niébé",
+				"Oignon",
+				"Patate douce",
+				"Riz",
+				"Tomate"
+			]
+		},
+		"label": {
+			"2": "Cultures"
+		},
+		"name": "cultures",
+		"alias": {
+			"2": "ajout Culture"
+		},
+		"description": {
+			"2": "Cultures"
+		},
+		"giscoord": "no",
+		"filter": ""
+	}
+}

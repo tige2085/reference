@@ -1,0 +1,186 @@
+{
+	"listVar": [
+		"evolsup",
+		"raisonevo1",
+		"raisonevo2",
+		"raisonevo3"
+	],
+	"nomModule": "Information sur les superficies emblavées en riz",
+	"name": "superfemblriz",
+	"description": "Information sur les superficies emblavées en riz",
+	"theme": "",
+	"dateVisite": "1",
+	"dateRecVisite": "",
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"evolsup": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "evolsup",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Augmentation",
+					"Diminution",
+					"Stagnation"
+				]
+			},
+			"label": {
+				"2": "Les superficies emblavées en riz ont-elles augmenté ou diminué ou stagné ces trois dernières années (entre 2014 et 2016) ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Les superficies emblavées en riz ont-elles augmenté ou diminué ou stagné ces trois dernières années (entre 2014 et 2016) ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "evolution des superficies emblavees en riz entre 2014 et 2016"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "a63d38294f27137a65b38219d50737b15a709fab"
+		},
+		"raisonevo1": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "raisonevo1",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Bonne pluviométrie,bon rendement,prix intéressant,disponibilité technologie,bonne perspective,augmentation de main d’œuvre,manque de moyens,évasion des ravageurs,pluie non régulière,pas de disponibilité de technologie,chute de rendement,terres  non fertiles"
+			},
+			"label": {
+				"2": "Quelles est la première  raison de cette évolution ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelles est la première  raison de cette évolution ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "première  raison de cette évolution"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "f91a8f277d2b7f9863cba6a7e861534ccde787d6"
+		},
+		"raisonevo2": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "raisonevo2",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Bonne pluviométrie,bon rendement,prix intéressant,disponibilité technologie,bonne perspective,augmentation de main d’œuvre,manque de moyens,évasion des ravageurs,pluie non régulière,pas de disponibilité de technologie,chute de rendement,terres  non fertiles"
+			},
+			"label": {
+				"2": "Quelle est la deuxième raison de cette évolution ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la deuxième raison de cette évolution ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "deuxième raison de cette évolution"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "d5e77e1ed13e0794337ff4fc40298f73af998e68"
+		},
+		"raisonevo3": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "raisonevo3",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Bonne pluviométrie",
+					"bon rendement",
+					"prix intéressant",
+					"disponibilité technologie",
+					"bonne perspective",
+					"augmentation de main d’œuvre",
+					"manque de moyens",
+					"évasion des ravageurs",
+					"pluie non régulière",
+					"pas de disponibilité de technologie",
+					"chute de rendement",
+					"terres  non fertiles"
+				]
+			},
+			"label": {
+				"2": "Quelle est la troisième raison de cette évolution ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est la troisième raison de cette évolution ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "troisième raison de cette évolution"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "d97503269cd01bd3f2d03e15bb7e738b98b23338"
+		}
+	},
+	"nomObjetModule": "Informationsurlessuperficiesemblavesenriz1433625157421",
+	"id": "8a8ca3cfd78dddb27f801b480fb5bc2e7cc099ad",
+	"listField": {}
+}

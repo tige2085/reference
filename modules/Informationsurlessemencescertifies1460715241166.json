@@ -1,0 +1,433 @@
+{
+	"nomModule": "Information sur les semences certifiées",
+	"name": "infosemcertif",
+	"description": "Information sur les semences certifiées",
+	"theme": "",
+	"dateVisite": "2",
+	"dateRecVisite": "",
+	"detail": {},
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"connaiscert": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "connaiscert",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Connaissez-vous l'apport des semences certifiées ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Connaissez-vous l'apport des semences certifiées ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "connaisance apport des semences certifiées"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "d932f8e7d06936913682e0c64473f14ef88053a0",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"MANQP"
+					],
+					"rule": "equals",
+					"indice": 6,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"orgconcert": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "orgconcert",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"ISRA",
+					"AfricaRice",
+					"ITA",
+					"Universités",
+					"SAED",
+					"ANCAR",
+					"SODAGRI",
+					"DRDR/SDRR",
+					"Autre paysan",
+					"USAID",
+					"ONG"
+				]
+			},
+			"label": {
+				"2": "Quelle organisation vous a fait connaitre l'apport des semences certifiés ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle organisation vous a fait connaitre l'apport des semences certifiés ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Quelle organisation vous a fait connaitre l'apport des semences certifiés"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "c9a0e0e02c3c55be0dce42b251d68c3bc3ebca0f"
+		},
+		"utilsemcert": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "utilsemcert",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Avez-vous utilisé au moins une fois les semences certifiées ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Avez-vous utilisé au moins une fois les semences certifiées ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Avez-vous utilisé au moins une fois les semences certifiées"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "fa2b4d75e81fc83fb16798a7d2abdc457458549e",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"USEM"
+					],
+					"rule": "equals",
+					"indice": 5,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"avntsemcert": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "avntsemcert",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Hausse rendement",
+					"Bon tallage",
+					"gain temps"
+				]
+			},
+			"label": {
+				"2": "Quels sont les avantages de l'utilisation des semences certifiées ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quels sont les avantages de l'utilisation des semences certifiées ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "avantages de l'utilisation des semences certifiées"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "a7539b5551ec3ab45a71341c909ed08322ef57db"
+		},
+		"incvsemcert": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "incvsemcert",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Coût élevé",
+					"Main d'oeuvre pénible",
+					"Pas assez de hausse rendement"
+				]
+			},
+			"label": {
+				"2": "Quelles sont les inconvénients de l'utilisation des semences certifiées ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelles sont les inconvénients de l'utilisation des semences certifiées ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "inconvénients de l'utilisation des semences certifiées"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "89951107daba082b725355cadab7c25e45f2d826"
+		},
+		"USEM": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "USEM",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Pensez-vous que les semences certifiées contribuent à l'amélioration de la production ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Pensez-vous que les semences certifiées contribuent à l'amélioration de la production ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "contribution des semences certifiées à l'amélioration de la production"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "cd6f760a967ea8243fbb87813b7174d6074d15f7"
+		},
+		"MANQP": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "MANQP",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"terres supplémentaires",
+					"Manque d’engrais",
+					"disponibilités de bonnes  semences",
+					"disponibilité de technologies",
+					"disponibilité de main d'oeuvre",
+					"insuffisance technique",
+					"manque d'eau",
+					"défaut d'encadrement"
+				]
+			},
+			"label": {
+				"2": "Que vous manque t-il principalement pour augmenter vos productions ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Que vous manque t-il principalement pour augmenter vos productions ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Que vous manque t-il principalement pour augmenter vos productions"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "0d60c57b0f4c8697d83252ba28bb311e0a766b1a"
+		},
+		"provsem": {
+			"caracteristique": {
+				"typeVariable": "checkbox",
+				"nomVariable": "provsem",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"achat au comptant",
+					"achat à crédit",
+					"essais",
+					"dons"
+				]
+			},
+			"label": {
+				"2": "D'où proviennent vos semences utilisées sur les différentes cultures ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "D'où proviennent vos semences utilisées sur les différentes cultures ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "source de provenance des semences utilisées sur les différentes cultures"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "4495a5082d7af57a85db67b59b0565645d27dcac"
+		},
+		"QUALITE": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "QUALITE",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"très bonne",
+					"bonne",
+					"assez bonne",
+					"mauvaise"
+				]
+			},
+			"label": {
+				"2": "Que pensez-vous de la qualité des semences sur le riz que vous utilisez ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Que pensez-vous de la qualité des semences sur le riz que vous utilisez ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "appréciation de la qualité des semences utilisée"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "8c7d7d8c016f6320f8fc505de20b969d458f9a78"
+		}
+	},
+	"nomObjetModule": "Informationsurlessemencescertifies1460715241166",
+	"primarykey": "",
+	"id": "6b1645bc122ef68f458cfc94ef31de90ea7df959",
+	"listField": {},
+	"listVar": [
+		"connaiscert",
+		"orgconcert",
+		"utilsemcert",
+		"avntsemcert",
+		"incvsemcert",
+		"USEM",
+		"MANQP",
+		"provsem",
+		"QUALITE"
+	]
+}

@@ -1,0 +1,193 @@
+{
+	"nomModule": "Accès aux herbicides",
+	"name": "accesherbicides",
+	"description": "Accès aux herbicides",
+	"theme": "",
+	"dateVisite": "2",
+	"dateRecVisite": "",
+	"detail": {},
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"fherbivill": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "fherbivill",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Avez-vous un fournisseur d'herbicides dans le village ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Avez-vous un fournisseur d'herbicides dans le village ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Avez-vous un fournisseur d'herbicides dans le village"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "00b3eb0f13fe0bcf9ee742a187b724f3dac3e48c",
+			"skipRule": {
+				"equals_1": {
+					"tabPath": [
+						"orginherbi"
+					],
+					"rule": "equals",
+					"indice": 2,
+					"matchingValues": [
+						1
+					]
+				}
+			}
+		},
+		"distfournherb": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "distfournherb",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "A quelle distance se trouve le fournisseur des herbicides (en km) ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "A quelle distance se trouve le fournisseur des herbicides (en km) ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "distance fournisseur des herbicides en km"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "b4d065d6d211a3b2849a0663fe236c15547c1878"
+		},
+		"orginherbi": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "orginherbi",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"marché",
+					"Ministère/autorités locales",
+					"fournisseur",
+					"autres paysans",
+					"ami/parent",
+					"coopérative/union"
+				]
+			},
+			"label": {
+				"2": "Où vous procurez vous ces herbicides ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Où vous procurez vous ces herbicides ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Où vous procurez vous ces herbicides"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "63ce2190cdaf7014e90903498a7f0b753bf6affe"
+		},
+		"recptherbi": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "recptherbi",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Est ce que vous recevez ces herbicides à temps ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Est ce que vous recevez ces herbicides à temps ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Est ce que vous recevez ces herbicides à temps"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "6e8bb120ca24074648b8abfb2ef700943e771ab6"
+		}
+	},
+	"nomObjetModule": "Accsauxherbicides1460737765891",
+	"primarykey": "",
+	"id": "3cc7d1e876e45c7d6cb9cbcf22a8c02cbaf1c99c",
+	"listField": {},
+	"listVar": [
+		"fherbivill",
+		"distfournherb",
+		"orginherbi",
+		"recptherbi"
+	]
+}

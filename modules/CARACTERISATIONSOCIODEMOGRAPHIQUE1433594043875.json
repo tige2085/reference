@@ -1,0 +1,440 @@
+{
+	"listVar": [
+		"nommbr",
+		"sexembr",
+		"agembr",
+		"lienchef",
+		"ethmbr",
+		"nivedu",
+		"siactmbr",
+		"actmbr",
+		"siouvrexp"
+	],
+	"nomModule": "CARACTERISATION SOCIO-DEMOGRAPHIQUE",
+	"name": "sociodemog",
+	"description": "CARACTERISATION SOCIO-DEMOGRAPHIQUE",
+	"theme": "",
+	"dateVisite": "1",
+	"dateRecVisite": "",
+	"langueModule": "2",
+	"listSousModule": [],
+	"listeVariable": {
+		"nommbr": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "nommbr",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Membres-bound_Membres1460557129638"
+				]
+			},
+			"label": {
+				"2": "Nom et prénom du membre du ménage ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Nom et prénom du membre du ménage ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "nom et prenom du membre"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "7280069616187f5c0aac69170b0a2f21a975a488"
+		},
+		"sexembr": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "sexembr",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Homme,Femme"
+			},
+			"label": {
+				"2": "Quelle est le genre du membre ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est le genre du membre ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "genre"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "c2718e19d22f9ef4da7fec767433697f7152693f"
+		},
+		"lienchef": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "lienchef",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Chef de ménage",
+					"conjoint",
+					"fils/fille",
+					"frère/sœur",
+					"neveux/nièce",
+					"Petit fils/petite fille",
+					"Père/mère",
+					"Femme d'un fils",
+					"Femme d'un frère",
+					"Enfant confié",
+					"Sans lien",
+					"gendre",
+					"Domestique",
+					"Autre parent"
+				]
+			},
+			"label": {
+				"2": "Quelle est le lien de parenté avec le chef de ménage ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est le lien de parenté avec le chef de ménage ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "lien avec le chef de menage"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "d72041aea7b30fd609ee017a34f7d7989d058354"
+		},
+		"ethmbr": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "ethmbr",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Wolof",
+					"Sérère",
+					"Toucouleur",
+					"Peulh",
+					"Maure",
+					"Diola",
+					"Mandingue",
+					"Sarakholé",
+					"Bambara",
+					"Bassari",
+					"Bédika",
+					"Dialonké",
+					"Koniadji",
+					"Balante",
+					"Bayenouk",
+					"Manjack",
+					"Mankangne",
+					"Manodj"
+				]
+			},
+			"label": {
+				"2": "Quelle est l'ethnie du membre ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est l'ethnie du membre ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": ""
+			},
+			"round": {
+				"2": "ethnie du membre"
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "ac748ea02f325c4396f80aae58f1aa11d8e75bd1"
+		},
+		"nivedu": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "nivedu",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Aucun niveau",
+					"alphabétisé",
+					"niveau primaire",
+					"niveau secondaire",
+					"niveau supérieur",
+					"arabisant",
+					"école coranique",
+					"école enseignement technique et professionnelle",
+					"autre niveau"
+				]
+			},
+			"label": {
+				"2": "Quelle est le niveau d'éducation du membre ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est le niveau d'éducation du membre ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "niveau education du membre"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "026cee74c26232fbca8dbcb386da5ed220a39b50"
+		},
+		"siactmbr": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "siactmbr",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Oui",
+					"Non"
+				]
+			},
+			"label": {
+				"2": "Le membre ci-dessus a t il une activité quelconque ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Le membre ci-dessus a t il une activité quelconque ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "le membre a t il une activite"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "7d3dbeb4d3716d72052a9ac51ebb08dd0dadb0f4",
+			"skipRule": {
+				"equals_2": {
+					"tabPath": [
+						"siouvrexp"
+					],
+					"rule": "equals",
+					"indice": 8,
+					"matchingValues": [
+						2
+					]
+				}
+			}
+		},
+		"actmbr": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "actmbr",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": [
+					"Activité Agricole (sens large)",
+					"Service",
+					"Commerce",
+					"Artisanat",
+					"Cueillette",
+					"Emploi salarié",
+					"Transporteur"
+				]
+			},
+			"label": {
+				"2": "Quelle est l'activité du membre ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est l'activité du membre ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "activite du membre"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "yes",
+			"id": "528b83d82783769cd443b085104ee897ad81f5f0"
+		},
+		"siouvrexp": {
+			"caracteristique": {
+				"typeVariable": "select",
+				"nomVariable": "siouvrexp",
+				"restriction": ""
+			},
+			"tabOption": {
+				"2": "Oui,Non"
+			},
+			"label": {
+				"2": "Le membre fait-il partie de la main d’œuvre agricole active dans le ménage ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Le membre fait-il partie de la main d’œuvre agricole active dans le ménage ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "Le membre fait-il partie de la main d’œuvre agricole active dans le ménage"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"typeTabOption": "no",
+			"id": "133e5fe4ba3542c9ace20d172613ad506811616a"
+		},
+		"agembr": {
+			"caracteristique": {
+				"typeVariable": "number",
+				"nomVariable": "agembr",
+				"restriction": "****"
+			},
+			"tabOption": "",
+			"label": {
+				"2": "Quelle est l'age du membre ?"
+			},
+			"indication": {
+				"2": ""
+			},
+			"mouseover": {
+				"2": ""
+			},
+			"textComment": {
+				"2": "Quelle est l'age du membre ?"
+			},
+			"giscoord": {
+				"2": "no"
+			},
+			"required": {
+				"2": "no"
+			},
+			"description": {
+				"2": "age du membre"
+			},
+			"round": {
+				"2": ""
+			},
+			"is_time_depend": "no",
+			"id": "3af26ee5e4cc3e95472fab24a243eb0469c6e1fb"
+		}
+	},
+	"nomObjetModule": "CARACTERISATIONSOCIODEMOGRAPHIQUE1433594043875",
+	"id": "579a443468880313c265c9b02cb62cd71a56693c",
+	"traverseOrder": {
+		"value": "aqli",
+		"variable": "nommbr",
+		"audioTransition": "",
+		"tabList": [
+			"sexembr",
+			"agembr",
+			"lienchef",
+			"ethmbr",
+			"nivedu",
+			"siactmbr",
+			"actmbr",
+			"siouvrexp"
+		]
+	},
+	"listField": {}
+}
