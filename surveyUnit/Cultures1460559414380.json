@@ -14,7 +14,18 @@
 	"id": "edab7899a24ab26a51c212cf4c1be51a683011fb",
 	"langueSurveyUnit": "2",
 	"listSousModule": [],
-	"listSousSurveyUnit": [],
+	"listSousSurveyUnit": [
+		{
+			"nomObjetSousSurveyUnit": "Varits1465863532077",
+			"nomSousSurveyUnit": "Variétés",
+			"description": "",
+			"surveyType": "",
+			"theme": "",
+			"detail": "",
+			"dateVisite": "",
+			"dateRecVisite": ""
+		}
+	],
 	"listeVariable": [],
 	"listField": {},
 	"properties": {

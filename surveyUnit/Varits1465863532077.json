@@ -1,0 +1,40 @@
+{
+	"nomObjetSurveyUnit": "Varits1465863532077",
+	"nomSurveyUnit": "Variétés",
+	"description": "",
+	"name": "variete",
+	"alias": "",
+	"giscoord": "no",
+	"surveyType": "",
+	"theme": "",
+	"detail": "",
+	"dateVisite": "",
+	"dateRecVisite": "",
+	"primarykey": "",
+	"id": "20309c89fad425c3b2ef946dc464156f94f2e7dd",
+	"langueSurveyUnit": "2",
+	"listSousModule": [],
+	"listSousSurveyUnit": [],
+	"listeVariable": [],
+	"listField": {},
+	"properties": {
+		"caracteristique": {
+			"typeVariable": "text",
+			"nomVariable": "primarykey",
+			"restriction": ""
+		},
+		"tabOption": "",
+		"label": {
+			"2": "Variétés"
+		},
+		"name": "variete",
+		"alias": {
+			"2": ""
+		},
+		"description": {
+			"2": ""
+		},
+		"giscoord": "no",
+		"filter": ""
+	}
+}
